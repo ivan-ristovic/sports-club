@@ -1,0 +1,14 @@
+Ucesnici sistema
+	a. Korisnici: 
+		U korisnike sistema spadaju sve zainteresovane osobe za sport. Koriscenjem naseg sistema imaju priliku da na jednostavan i lak nacin organizuju aktivnosti u kojima uzivaju. 
+		a.1. Neregistrovani korisnici sistema: 
+			Imaju samo ogranicen pristup mogucnostima sistema. Mogu da steknu uvid u raspored tekucih aktivnosti koje nas sportski klub organizuje kao i informacije o sportskom centru.
+		a.2. Registrovani korisnici sistema: 
+			Imaju dodatnu mogucnost zakazivanja individualnih treninga kao i placanje usluga putem Interneta.
+	b. Zaposleni: 
+		b.1. Treneri: 
+			U zaposlene spadaju i treneri koji ce imati privilegije da menjaju rasporede aktivnosti.
+		b.2. Pomocno osoblje (recepcionar): 
+			Pruza mogucnost korisnicima da putem telefona ili uzivo zakazu treninge i dobiju dodatne informacije.
+	c. Administrator sistema: 
+		Daje dozvolu ostalom osoblju za pristup odredjenim delovima sistema. Ima punu kontrolu nad nalozima zaposlenih i korisnika; kao i pravo da ugasi nalog odredjenog korisnika sistema.
