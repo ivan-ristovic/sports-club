@@ -1,0 +1,26 @@
+Uživo otkazivanje treninga
+
+1. Učesnici: 
+	Korisnik - želi da otkaže trening.
+	Recepcionar - želi da na brz i jednostavan način izvrši otkazivanje treninga korisniku. 
+
+2. Preduslovi: 
+	Web-sajt je u funkciji. 
+	Recepcionar ima pristup internetu.
+	Korisnik je registrovan.
+
+3. Postuslovi: 
+	Korisnik je dobio potvrdu da je njegov trening otkazan.
+	Sportski klub je dobio informaciju o otkazanom treningu.
+	
+4. Osnovni tok:
+	1. Korisnik iz liste zakazanih treninga bira trening koji želi da otkaže.
+	2. Recepcionar otkazuje trening.
+	3. Sistem čuva informaciju o otkazivanju treninga i ažurira bazu.	
+	4. Recepcionar obavestava korisnika da je njegov trening otkazan.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /
