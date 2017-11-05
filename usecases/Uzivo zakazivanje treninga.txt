@@ -1,0 +1,29 @@
+﻿Uzivo zakazivanje treninga
+
+	1. Učesnici: 
+		Registrovani korisnik
+		Recepcionar
+
+	2. Preduslovi: 
+		Web-sajt je u funkciji. 
+		Korisnik je registrovan.
+		Korisnik razgovora uzivo sa recepcionarem.
+
+	3. Postuslovi: 
+		Korisnik je dobio konfirmaciju da je njegov trening zakazan. Centar je dobio informaciju o zakazanom treningu.
+
+	4. Osnovni tok:
+		1. Korisnik bira vrstu treninga koji želi da zakaže.
+			a) Individualni trening: Bira trenera kod kog želi da zakaže personalni trening.
+			b) Grupni trening: Bira grupni program kom želi da se priključi.
+		2. Recepcionar zakazuje trening.
+		3. Sistem čuva informaciju da se korisnik prijavio za trening.
+		4. Sistem obaveštava korisnika da je njegov trening zakazan.
+
+	5. Alternativni tok:
+		1a. Trener kod kog korisnik želi da zakaže trening nije dostupan – korisnik se obaveštava da izabrani trener nije u mogućnosti da mu održi trening. Slučaj upotrebe se nastavlja na koraku 1.
+		1b. Grupa za program kom želi da se priključi je puna – korisnik se obaveštava o tome da trenutno nema mesta na izabranom programu. Nudi mu se opcija da izabere drugi program ili da se upiše na listu čekanja. Slučaj upotrebe se završava.
+
+	6. Specijalni zahtevi: /
+
+	7. Dodatne informacije: /
