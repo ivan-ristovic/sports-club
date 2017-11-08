@@ -1,0 +1,38 @@
+﻿Registracija korisnika online
+
+	1. Učesnici:
+		Neregistrovani korisnik – zeli da se registruje u sportski klub kako bi imao priliku da zakaze trening.
+
+	2. Preduslovi:
+		Web-sajt je u funkciji.
+		Korisnik ima pristup internetu.
+
+	3. Postuslovi:
+		Korisniku je napravljen nalog na sistemu. Baza korisnika je azurirana.
+
+	4. Osnovni tok:
+		1. Korisnik odlazi na deo web-sajta za registraciju novih korisnika.
+		2. Korisnik unosi potrebne podatke i kliknuo je na polje “Registruj se”.
+		3. Sistem vrsi validaciju podataka.
+		4. Sistem cuva unete podatke i obelezava nalog kao privremeni.
+		5. Sistem salje e-mail korisniku sa linkom za potvrdu registracije, obavestava ga i ceka na potvrdu.
+		6. Korisnik proverava mail i potvrdjuje registraciju prateci link za potvrdu.
+		7. Sistem obelezava da je nalog aktiviran.
+		8. Sistem obavestava korisnika da je nalog uspesno kreiran.
+
+	5. Alternativni tok:
+		3. Neuspesna verifikacija podataka: Sistem obavestava korisnika na kom polju verifikacija nije uspela. Slucaj upotrebe se nastavlja na koraku 2.
+		5. Link za potvrdu registracije je istekao: Korisnik nije potvrdio registraciju u predvidjenom roku. Sistem brise informacije o korisniku. Slucaj upotrebe se zavrsava.
+		6. Korisnik nije dobio mail I obavestava sistem da mu ga ponovo posalje. Slucaj upotrebe se 	nastavlja na koraku 5.
+
+	6. Specijalni zahtevi: /
+
+	7. Dodatne informacije:
+		Potrebni podaci za registraciju korisnika su:
+			1. Ime
+			2. Prezime
+			3. Username
+			4. E-mail
+			5. Lozinka
+			6. Polje za proveru lozinke
+			7. Captcha.
