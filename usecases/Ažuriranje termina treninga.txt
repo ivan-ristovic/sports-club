@@ -1,0 +1,15 @@
+Ažuriranje termina treninga
+	1. Učesnici: Trener – želi da izmeni termin svog treninga u neki koji mu više odgovara
+	2. Preduslovi: Web-sajt je u funkciji. Trener ima pristup internetu.
+	3. Postuslovi: Trener je obavešten da je termin uspešno promenjen. Sistem je sačuvao izmenu. Nova izmena će se prikazivati u rasporedu
+	4. Osnovni tok:
+		1. Trener se prijavljuje na svoj profil na web-sajtu
+		2. Odlazi na deo stranice za ažuriranje termina treninga
+		3. Bira novi termin za trening koji želi da izmeni
+		4. Pritiskom na dugme 'Potvrdi' sistem menja termin
+    5. Sistem šalje mail svim registrovanim korisnicima koji su upisani na taj trening
+    6. Sistem obaveštava trenera da je izmena termina uspešna
+	5. Alternativni tok:
+	  4. Ne postoji slobodna sala za izabrani termin - sistem obaveštava trenera da ne može da izvrši izmenu. Slučaj upotrebe se nastavlja na koraku 3
+	6. Specijalni zahtevi: /
+	7. Dodatne informacije: /
