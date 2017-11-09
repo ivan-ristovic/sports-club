@@ -1,34 +1,36 @@
 ﻿Registracija korisnika uzivo
 
-	1. Učesnici:
-		Neregistrovani korisnik – zeli da se registruje u sportski klub kako bi imao priliku da zakaze trening.
-		Recepcionar – Zeli da lako I brzo izvrsi registraciju korisnika na servis.
+1. Učesnici:
+    Neregistrovani korisnik – Zeli da se registruje u sportski klub kako bi imao mogao da koristi usluge sportskog centra.
+    Recepcionar – Zeli da lako i brzo izvrsi registraciju korisnika na servis.
 
-	2. Preduslovi: 
-		Web-sajt je u funkciji. Recepcionar ima pristup internetu.
+2. Preduslovi: 
+    Web-sajt je u funkciji.
+    Recepcionar ima pristup internetu.
 
-	3. Postuslovi: 
-		Korisniku je napravljen nalog na sistemu. Baza korisnika je azurirana.
+3. Postuslovi: 
+    Korisniku je napravljen nalog na sistemu.
+    Baza korisnika je azurirana.
 
-	4. Osnovni tok:
-		1. Korisnik dolazi na recepciju sportskog centra I izjavljuje da zeli da se pridruzi sportskom centru. 
-		2. Recepcionar odlazi na deo web-sajta za registraciju novih korisnika.
-Recepcionar pita korisnika I unosi potrebne podatke. Kliknuo je na polje “Registruj se”.
-		3. Sistem vrsi validaciju podataka.
-		4. Sistem cuva unete podatke.
-		5. Sistem salje mail korisniku sa linkom za potvrdu registracije.
-		6. Recepcionar obavestava korisnika da proveri mail I klikne na link za potvrdu registracije.
-		7. Korisnik proverava mail I odlazi na link za potvrdu registracije.
-		8. Sistem obelezava da je nalog aktiviran.
-		9. Recepcionar obavestava korisnika da je nalog uspesno kreiran I da od sada moze da koristi sistem.
+4. Osnovni tok:
+    1. Korisnik dolazi na recepciju sportskog centra i izjavljuje da zeli da se pridruzi sportskom centru. 
+    2. Recepcionar odlazi na deo web-sajta za registraciju novih korisnika.
+    3. Recepcionar pita korisnika i unosi potrebne podatke. Kliknuo je na polje “Registruj se”.
+    4. Sistem vrsi validaciju podataka.
+    5. Sistem cuva unete podatke.
+    6. Sistem salje mail korisniku sa linkom za potvrdu registracije.
+    7. Recepcionar obavestava korisnika da proveri mail i klikne na link za potvrdu registracije.
+    8. Korisnik proverava mail i odlazi na link za potvrdu registracije.
+    9. Sistem obelezava da je nalog aktiviran.
+    10. Recepcionar obavestava korisnika da je nalog uspesno kreiran i da od sada moze da koristi sistem.
 
-	5. Alternativni tok:
-		3. Neuspesna verifikacija podataka: Rececionar obavestava korisnika na kom polju verifikacija nije uspela. Slucaj upotrebe se nastavlja na koraku 3.
-		5. Link za potvrdu registracije je istekao: Korisnik nije potvrdio registraciju u predvidjenom roku. Sistem brise informacije o korisniku. Slucaj upotrebe se zavrsava.
-		6. Korisnik nije dobio mail I obavestava recepcionara da mu ga ponovo posalje. Recepcionar zahteva od sistema da ponovo posalje mail. Slucaj upotrebe se nastavlja na koraku 6.
+5. Alternativni tok:
+    4. Neuspesna verifikacija podataka: Rececionar obavestava korisnika na kom polju verifikacija nije uspela. Slucaj upotrebe se nastavlja na koraku 3.
+    8. Link za potvrdu registracije je istekao: Korisnik nije potvrdio registraciju u predvidjenom roku. Sistem brise informacije o korisniku. Slucaj upotrebe se zavrsava.
+    8. Korisnik nije dobio mail i obavestava recepcionara da mu ga ponovo posalje. Recepcionar zahteva od sistema da ponovo posalje mail. Slucaj upotrebe se nastavlja na koraku 6.
 
-	6. Specijalni zahtevi: 
-		Slucaj upotrebe treba brzo da se izvrsi brzo kako bi korisnik mogao brzo da pocne da koristi mogucnosti sportskog kluba.
+6. Specijalni zahtevi: 
+    Slucaj upotrebe treba brzo da se izvrsi brzo kako bi korisnik mogao brzo da pocne da koristi mogucnosti sportskog kluba.
 
-	7. Dodatne informacije: 
-		Potrebni podaci za registraciju korisnika su: ime, prezime, mail, lozinka, polje za proveru lozinke, captcha.
+7. Dodatne informacije: 
+    Potrebni podaci za registraciju korisnika su: ime, prezime, mail, lozinka, polje za proveru lozinke, captcha.

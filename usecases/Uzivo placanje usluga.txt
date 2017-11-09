@@ -1,36 +1,43 @@
-Uzivo placanje usluga
+Uživo plaćanje usluga
 
-1. Ucesnici:
+1. Učesnici:
 	Korisnik
 	Recepcionar
 
 2. Preduslovi:
 	1. Sistem je u funkciji.
 	2. Recepcionar ima pristup sistemu.
-	3. Recepcionar ima privilegije na sistemu potrebne za azuriranje korisnikovog naloga.
+	3. Recepcionar ima privilegije na sistemu potrebne za ažuriranje korisnikovog naloga.
 
 3. Postuslovi:
-	Korisnik je dobio racun.
+	Korisnik je dobio račun.
 
 4. Osnovni tok:
 	1. Korisnik dolazi na recepciju sportskog centra.
-	2. Recepcionar trazi od korisnika da mu da clansku kartu, username ili mail.
-	3. Korisnik daje recepcionaru svoju clansku kartu, username ili mail.
-	4. Recepcionar se povezuje na deo sistema preko kojeg je u mogucnosti da azurira korisnicki nalog.
-	5. Korisnik bira uslugu koju zeli. 
-    6. Recepcionar azurira korisnikov nalog i ceka potvrdu sistema o uspesnosti operacije.
-    7. Sistem obavestava recepcionara da je nalog uspesno azuriran. 
-    8. Recepcionar obavestava korisnika da je njegova uplata uspesno prosla.
-	9. Korisnik daje novac recepcionaru.
-	10. Recepcionar prima novac od korisnika i daje mu racun i kusur.
-	11. Korisnik uzima racun.
+	2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
+	3. Korisnik daje recepcionaru svoju člansku kartu, username ili mail.
+	4. Recepcionar se povezuje na deo sistema preko kojeg je u mogućnosti da ažurira korisnički nalog.
+	5. Korisnik bira vrstu usluge koju želi da plati.
+        a) Korisnik je izabrao uslugu grupni sport. 
+            Korisnik bira vrstu grupnog sporta.
+        b) Korisnik je izabrao uslugu individualni treninzi.
+            Korisnik unosi broj individualnih treninga koje želi da uplati.
+    6. Recepcionar obaveštava korisnika o ceni usluge.
+    7. Korisnik potvrđuje svoj izbor.
+    8. Recepcionar ažurira korisnikov nalog i ceka potvrdu sistema o uspešnosti operacije.
+    9. Sistem obaveštava recepcionara da je nalog uspešno ažuriran. 
+    10. Recepcionar obaveštava korisnika da je nalog uspešno ažuriran.
+	11. Korisnik daje novac recepcionaru.
+	12. Recepcionar prima novac od korisnika i daje mu račun i kusur.
+	13. Korisnik uzima račun.
 
 5. Alternativni tok:
-    3. Korisnik nije registrovan: Recepcionar obavestava korisnika da mora da bude registrovan kako bi izvrsio placanje. Slucaj upotrebe se ili zavrsava ili nastavlja na slucaju upotrebe '* registracija korisnika'.
-	4. Recepcionar ne moze da se poveze na sistem koristeci dobijene podatke. Slucaj upotrebe se nastavlja na koraku 2.
-	7. Sistem prijavljuje gresku prilikom azuriranja korisnikovih podataka: Recepcionar obavestava korisnika da je doslo do greske i da ne moze da mu izvrsi trazenu operaciju. Slucaj upotrebe se zavrsava.
-	9. Korisnik nema novca: Obavestava recepcionara koji zatim ponistava izmenu na korisnikovom nalogu. Slucaj upotrebe se zavrsava.
+    3. Korisnik nije registrovan: Recepcionar obaveštava korisnika da mora da bude registrovan kako bi izvrsio plaćanje. Slučaj upotrebe se ili završava ili nastavlja na slučaju upotrebe '* registracija korisnika'.
+	4. Recepcionar ne moze da se poveže na sistem koristeći dobijene podatke. Slučaj upotrebe se nastavlja na koraku 2.
+	7. Korisnik odustaje od kupovine: Obaveštava recepcionara. Slučaj upotrebe se završava.
+	9. Sistem prijavljuje grešku prilikom ažuriranja korisnikovih podataka: Recepcionar obaveštava korisnika da je doslo do greške i da ne može da mu izvrši traženu operaciju. Slučaj upotrebe se završava.
 
 6. Specijalni zahtevi: /
 
-7. Dodatne informacije: Placanje se moze izvrsiti i karticom.
+7. Dodatne informacije:
+    Plaćanje se moze izvršiti i karticom.

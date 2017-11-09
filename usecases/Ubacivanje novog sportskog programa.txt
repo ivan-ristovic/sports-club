@@ -1,0 +1,26 @@
+Ubacivanje novog sportskog programa
+
+1. Učesnici:
+    Sistemski administrator – Želi da na jednostavan način unese novi sportski program u sistemsku bazu.
+    
+2. Preduslovi:
+    Administrator ima neophodne podatke o novom programu.
+    
+3. Postuslovi:
+    Novi program je dodat u sistem.
+    Treneri su u mogućnosti da zakazuju treninge po novom programu.
+    
+4. Osnovni tok: 
+    1. Administrator bira opciju za dodavanje novog programa.
+    2. Administrator unosi neophodne podatke u formu i klikće na dugme „Dodaj“.
+    3. Sistem unosi podatke o novom programu u bazu.
+    4. Sistem obaveštava administratora o uspšnosti dodavanja programa.
+
+5. Alternativni tok:
+        2. Administrator ne zna koji treneri će voditi program. Administrator polje o trenerima ostavlja prazno. Slučaj upotrebe se nastavlja na koraku 3.
+    3.  Sistem nije u mogućnosti da doda novi program. Sistem obaveštava administratora o neuspehu. Slučaj upotrebe se završava.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: 
+    Podatke o novom programu koje administrator treba da unese su: naziv sporta, tip (borilački, fitness, teretana, itd.), uzrast za koji je program namenjen, osnovna cena, treneri koji će voditi program.
