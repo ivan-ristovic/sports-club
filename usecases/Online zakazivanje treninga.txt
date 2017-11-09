@@ -1,20 +1,31 @@
-﻿Online zakazivanje treninga
-	1. Učesnici: Korisnik – želi da uz malo napora izabere program kom želi da se priključi i zakaže trening.
-	2. Preduslovi: Web-sajt je u funkciji. Korisnik ima pristup internetu.
-	3. Postuslovi: Korisnik je dobio konfirmaciju da je njegov trening zakazan. Centar je dobio informaciju o zakazanom treningu.
-	4. Osnovni tok:
-		1. Korisnik se prijavljuje na svoj profil na web-sajtu
-		2. Odlazi na deo stranice za zakazivanje treninga
-		3. Iz liste bira vrstu treninga koji želi da zakaže i klikće dugme ’Zakaži’
-			a) Bira trenera kod kog želi da zakaže personalni trening
-			b) Bira grupni program kom želi da se priključi
-		4. Sistem čuva informacije o tome koji se korisnik prijavio za koji trening
-		5. Sistem obaveštava korisnika da je njegov trening zakazan
-	5. Alternativni tok:
-		1. Korisnik nije registrovan na sajtu – korisnik nema svoj profil na web-sajtu i sistem ga informiše da se mora registrovati radi zakazivanja treninga. Slučaj upotrebe se završava a pokreće se slučaj ’Online registracija korisnika’.
-		3a. Trener kod kog korisnik želi da zakaže trening nije dostupan – korisnik se obaveštava da izabrani trener nije u mogućnosti da mu održi trening. 
-			Slučaj upotrebe se nastavlja na koraku 3.
-		3b. Grupa za program kom želi da se priključi je puna – korisnik se obaveštava o tome da trenutno nema mesta na izabranom programu. 
-			Nudi mu se opcija da izabere drugi program ili da se upiše na listu čekanja. Slučaj upotrebe se završava.
-	6. Specijalni zahtevi: /
-	7. Dodatne informacije: /
+﻿Online zakazivanje individualnih treninga
+
+1. Učesnici: 
+	Korisnik – želi da uz malo napora izabere program kom želi da se priključi i zakaže trening.
+
+2. Preduslovi: 
+	Web-sajt je u funkciji. 
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan na sajtu.
+
+3. Postuslovi: 
+	Korisnik je dobio konfirmaciju da je njegov trening zakazan. 
+	Centar je dobio informaciju o zakazanom treningu.
+
+4. Osnovni tok:
+	1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+	2. Korisnik odlazi na deo stranice za zakazivanje treninga.
+	3. Korisnik bira trenera kod kog želi da zakaže individualni trening.
+	4. Sistem korisniku prikazuje spisak termina trenera.
+	5. Korisnik bira slobodan termin i klikće na dugme "Zakaži trening".
+	6. Sistem umanjuje broj uplaćenih treninga korisniku.
+	7. Sistem ažurira kalendare korisnika i trenera.
+	8. Sistem obaveštava korisnika da je njegov trening zakazan.
+	9. Sistem obaveštava trenera da je zakazan novi trening.
+
+5. Alternativni tok:
+	6. Korisnik nema uplaćenih individualnih treninga. Sistem obaveštava korisnika da nema uplaćene treninge i nudi mu opciju da uplati treninge. Slučaj upotrebe se završava.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

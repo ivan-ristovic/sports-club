@@ -1,0 +1,29 @@
+Online otkazivanje individualnih treninga
+
+1. Učesnici: 
+	Korisnik - želi da na brz i jednostavan način otkaže individualni trening.
+
+2. Preduslovi: 
+	Web-sajt je u funkciji. 
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan.
+
+3. Postuslovi: 
+	Korisnik je dobio potvrdu da je njegov trening otkazan.
+	Sportski klub je dobio informaciju o otkazanom treningu.
+	
+4. Osnovni tok:
+	1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+	2. Korisnik odlazi na deo stranice sa svojim vec zakazanim treninzima.
+	3. Korisnik iz liste zakazanih treninga bira trening koji želi da otkaže.
+	4. Korisnik klikće dugme 'Otkaži'.
+	5. Sistem čuva informaciju o otkazivanju treninga i ažurira bazu.
+	6. Sistem obaveštava trenera da je trening otkazan.
+	7. Sistem ažurira kalendar trenera.	
+	8. Sistem obaveštava korisnika da je njegov trening otkazan.
+
+5. Alternativni tok: / 
+	
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /
