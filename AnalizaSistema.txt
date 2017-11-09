@@ -1,0 +1,6 @@
+Analiza sistema
+
+Ideja sistema sportskog centra je da se osobama koje se bave sportskim aktivnostima pruži udoban i efikasan način da organizuju svoje aktivnosti. Korišćenjem ovog sistema, osobe mogu da na jednostavan način da zakažu individualni trening kod željenog trenera ili da se pridruže već postojećim grupama. Kroz ažuran web-sajt imaju mogućnost da vide rasporede treninga po salama kao i da vrše filtriranje po sportskim aktivnostima za koje su zainteresovani ili po imenu trenera.
+Korisnici mogu da izvrše registraciju na web-sajt, prijavljivanje, zakazivanje treninga i plaćanja.
+
+Prilikom zaposlenja trenera u sportskom centru mu se od strane sistem administratora otvara nalog sa posebnim privilegijama. Trener ima dodatnu opciju za menjanje postojećeg rasporeda sportskih aktivnosti koje drži kao i uvid u broj osoba koje su se prijavile da će prisustvovati treningu.
