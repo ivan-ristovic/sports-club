@@ -1,14 +1,18 @@
 Ucesnici sistema
 	a. Korisnici: 
-		U korisnike sistema spadaju sve zainteresovane osobe za sport. Koriscenjem naseg sistema imaju priliku da na jednostavan i lak nacin organizuju aktivnosti u kojima uzivaju. 
+		U korisnike sistema spadaju sve osobe zainteresovane za sport. Korišćenjem našeg sistema imaju priliku da na jednostavan i lak način organizuju aktivnosti u kojima uživaju. 
 		a.1. Neregistrovani korisnici sistema: 
-			Imaju samo ogranicen pristup mogucnostima sistema. Mogu da steknu uvid u raspored tekucih aktivnosti koje nas sportski klub organizuje kao i informacije o sportskom centru.
+			Imaju samo ograničen pristup mogućnostima sistema. Mogu da steknu uvid u raspored tekućih aktivnosti koje nas sportski klub organizuje kao i informacije o sportskom centru.
 		a.2. Registrovani korisnici sistema: 
-			Imaju dodatnu mogucnost zakazivanja individualnih treninga kao i placanje usluga putem Interneta.
+			Imaju dodatnu mogućnost zakazivanja individualnih treninga kao i plaćanje usluga putem Interneta.
 	b. Zaposleni: 
 		b.1. Treneri: 
-			U zaposlene spadaju i treneri koji ce imati privilegije da menjaju rasporede aktivnosti.
-		b.2. Pomocno osoblje (recepcionar): 
-			Pruza mogucnost korisnicima da putem telefona ili uzivo zakazu treninge i dobiju dodatne informacije.
-	c. Administrator sistema: 
-		Daje dozvolu ostalom osoblju za pristup odredjenim delovima sistema. Ima punu kontrolu nad nalozima zaposlenih i korisnika; kao i pravo da ugasi nalog odredjenog korisnika sistema.
+			U zaposlene spadaju treneri koji pored održavanja samih treninga imaju i privilegije menjanja rasporeda aktivnosti, zakazivanja novih i slanja obaveštenja korisnicima.
+		b.2. Nutricionista:
+			Pruža korisnicima savete o zdravoj ishrani.
+		b.3. Pomoćno osoblje (recepcionar): 
+			Pruža mogućnost korisnicima da putem telefona ili uživo zakazu treninge i dobiju dodatne informacije. Takođe vodi računa o evidentiranju korisnika koji su došli na trening.
+	c. Uprava:
+		Vodi sportski klub. Rešava zahteve novih aktivnosti i nove opreme.
+	d. Administrator sistema: 
+		Daje dozvolu ostalom osoblju za pristup određenim delovima sistema. Ima punu kontrolu nad nalozima zaposlenih i korisnika; kao i pravo da ugasi nalog odreženog korisnika sistema.
