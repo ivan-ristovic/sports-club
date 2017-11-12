@@ -51,93 +51,129 @@ Prilikom zaposlenja trenera u sportskom centru mu se od strane sistem administra
 
 ### Korisnik
 
-#### Online registracija korisnika
+#### Use-Case: Online registracija korisnika
 
-- **Učesnici**:
+* **Učesnici**:
     - Neregistrovani korisnik: Zeli da se registruje u sportski klub kako bi imao priliku da zakaze trening.
 
 
-- **Preduslovi**:
+* **Preduslovi**:
     - Web-sajt je u funkciji.
     - Korisnik ima pristup internetu.
 
 
-- **Postuslovi**:
+* **Postuslovi**:
     - Korisniku je napravljen nalog na sistemu.
     - Baza korisnika je azurirana.
 
 
-- **Osnovni tok**:
-	1. Korisnik odlazi na deo web-sajta za registraciju novih korisnika.
-	2. Korisnik unosi potrebne podatke i kliknuo je na polje “Registruj se”.
-	3. Sistem vrsi validaciju podataka.
-	4. Sistem cuva unete podatke i obelezava nalog kao privremeni.
-	5. Sistem salje e-mail korisniku sa linkom za potvrdu registracije, obavestava ga i ceka na potvrdu.
-	6. Korisnik proverava mail i potvrdjuje registraciju prateci link za potvrdu.
-	7. Sistem obelezava da je nalog aktiviran.
-	8. Sistem obavestava korisnika da je nalog uspesno kreiran.
+* **Osnovni tok**:
+    1. Korisnik odlazi na deo web-sajta za registraciju novih korisnika.
+    2. Korisnik unosi potrebne podatke i kliknuo je na polje “Registruj se”.
+    3. Sistem vrsi validaciju podataka.
+    4. Sistem cuva unete podatke i obelezava nalog kao privremeni.
+    5. Sistem salje e-mail korisniku sa linkom za potvrdu registracije, obavestava ga i ceka na potvrdu.
+    6. Korisnik proverava mail i potvrdjuje registraciju prateci link za potvrdu.
+    7. Sistem obelezava da je nalog aktiviran.
+    8. Sistem obavestava korisnika da je nalog uspesno kreiran.
 
 
-- **Alternativni tok**:
-	3. Neuspesna verifikacija podataka: Sistem obavestava korisnika na kom polju verifikacija nije uspela. Slucaj upotrebe se nastavlja na koraku 2.
-	5. Link za potvrdu registracije je istekao: Korisnik nije potvrdio registraciju u predvidjenom roku. Sistem brise informacije o korisniku. Slucaj upotrebe se zavrsava.
-	6. Korisnik nije dobio mail I obavestava sistem da mu ga ponovo posalje. Slucaj upotrebe se nastavlja na koraku 5.
+* **Alternativni tok**:
+    3. Neuspesna verifikacija podataka: Sistem obavestava korisnika na kom polju verifikacija nije uspela. Slucaj upotrebe se nastavlja na koraku 2.
+    5. Link za potvrdu registracije je istekao: Korisnik nije potvrdio registraciju u predvidjenom roku. Sistem brise informacije o korisniku. Slucaj upotrebe se zavrsava.
+    6. Korisnik nije dobio mail I obavestava sistem da mu ga ponovo posalje. Slucaj upotrebe se nastavlja na koraku 5.
 
 
-- **Specijalni zahtevi**:
+* **Specijalni zahtevi**:
     Nema
 
 
-- **Dodatne informacije**:
-	Potrebni podaci za registraciju korisnika su:
-	- Ime
-	- Prezime
-	- Username
-	- E-mail
-	- Lozinka
-	- Polje za proveru lozinke
-	- Captcha.
+* **Dodatne informacije**:
+    Potrebni podaci za registraciju korisnika su:
+    - Ime
+    - Prezime
+    - Username
+    - E-mail
+    - Lozinka
+    - Polje za proveru lozinke
+    - Captcha.
 
 
-#### Online zakazivanje treninga
-#### Online otkazivanje treninga
-#### Online placanje treninga
-#### Online zakazivanje sportskog pregleda
-#### Online placanje sportskog pregleda
-#### Planiranje kalendara aktivnosti
-#### Anketa - predlaganje novih sportskih aktivnosti
+#### Use-Case: Online zakazivanje treninga
+
+* **Učesnici**:
+    - Korisnik: želi da uz malo napora izabere program kom želi da se priključi i zakaže trening.
+
+
+* **Preduslovi**:
+    - Web-sajt je u funkciji.
+    - Korisnik ima pristup internetu.
+    - Korisnik je registrovan na sajtu.
+
+
+* **Postuslovi**:
+    - Korisnik je dobio konfirmaciju da je njegov trening zakazan.
+    - Centar je dobio informaciju o zakazanom treningu.
+
+
+* Osnovni tok:
+    1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+    2. Korisnik odlazi na deo stranice za zakazivanje treninga.
+    3. Korisnik bira trenera kod kog želi da zakaže individualni trening.
+    4. Sistem korisniku prikazuje spisak termina trenera.
+    5. Korisnik bira slobodan termin i klikće na dugme "Zakaži trening".
+    6. Sistem umanjuje broj uplaćenih treninga korisniku.
+    7. Sistem ažurira kalendare korisnika i trenera.
+    8. Sistem obaveštava korisnika da je njegov trening zakazan.
+    9. Sistem obaveštava trenera da je zakazan novi trening.
+
+
+* Alternativni tok:
+    6. Korisnik nema uplaćenih individualnih treninga. Sistem obaveštava korisnika da nema uplaćene treninge i nudi mu opciju da uplati treninge. Slučaj upotrebe se završava.
+
+
+* Specijalni zahtevi: /
+
+* Dodatne informacije: /
+
+#### Use-Case: Online otkazivanje treninga
+#### Use-Case: Online placanje treninga
+#### Use-Case: Online zakazivanje sportskog pregleda
+#### Use-Case: Online placanje sportskog pregleda
+#### Use-Case: Planiranje kalendara aktivnosti
+#### Use-Case: Anketa - predlaganje novih sportskih aktivnosti
 
 ### Korisnik i recepcionar
-#### Uzivo registracija korisnika
-#### Uzivo zakazivanje treninga
-#### Uzivo otkazivanje treninga
-#### Uzivo placanje
-#### Uzivo zakazivanje sportskog pregleda
-#### Uzivo placanje sportskog pregleda
+#### Use-Case: Uzivo registracija korisnika
+#### Use-Case: Uzivo zakazivanje treninga
+#### Use-Case: Uzivo otkazivanje treninga
+#### Use-Case: Uzivo placanje
+#### Use-Case: Uzivo zakazivanje sportskog pregleda
+#### Use-Case: Uzivo placanje sportskog pregleda
 
 ### Recepcionar
-#### Evidentiranje dolazaka korisnika na trening
-#### Pravljenje platnog spiska
+#### Use-Case: Evidentiranje dolazaka korisnika na trening
+#### Use-Case: Pravljenje platnog spiska
 
 ### Nutricionista
-#### Online zakazivanje sastanka sa nutricionistom
-#### Uzivo zakazivanje sastanka sa nutricionistom
+#### Use-Case: Online zakazivanje sastanka sa nutricionistom
+#### Use-Case: Uzivo zakazivanje sastanka sa nutricionistom
 
 ### Trener
-#### Rezervacija termina
-#### Otkazivanje termina
-#### Azuriranje termina
-#### Izmena licnog dela web-sajta
-#### Postavljanje informacija na grupu za grupni sport
-#### Pravljenje zahteva za novu operemu
+#### Use-Case: Rezervacija termina
+#### Use-Case: Otkazivanje termina
+#### Use-Case: Azuriranje termina
+#### Use-Case: Izmena licnog dela web-sajta
+#### Use-Case: Postavljanje informacija na grupu za grupni sport
+#### Use-Case: Pravljenje zahteva za novu operemu
 
 ### Sistemski administrator
-#### Registracija trenera
-#### Brisanje naloga
-#### Ubacivanje nove sportske aktivnosti
-#### Brisanje sportske aktivnosti
-#### Postavljanje informacija na sajt
+#### Use-Case: Registracija trenera
+#### Use-Case: Brisanje naloga
+#### Use-Case: Ubacivanje nove sportske aktivnosti
+#### Use-Case: Brisanje sportske aktivnosti
+#### Use-Case: Postavljanje informacija na sajt
 
 ### Uprava
-#### Obrada zahteva za novu opremu
-#### Obrada zahteva za nove sportske aktivnosti
+#### Use-Case: Obrada zahteva za novu opremu
+#### Use-Case: Obrada zahteva za nove sportske aktivnosti
