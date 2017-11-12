@@ -8,7 +8,7 @@
 	Korisnik ima pristup internetu.
 
 3. Postuslovi:
-	Korisniku je napravljen nalog na sistemu. 
+	Korisniku je napravljen nalog na sistemu.
 	Baza korisnika je azurirana.
 
 4. Osnovni tok:
