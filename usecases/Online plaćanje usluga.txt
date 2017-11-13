@@ -21,7 +21,8 @@ Online plaćanje treninga
 		   Korisnik bira vrstu grupnog sporta.
 		b) Korisnik je izabrao uslugu individualni treninzi.
 		   Korisnik unosi broj individualnih treninga koje želi da uplati.
-	4. Sistem izračunava cenu i prikazuje je korisniku.	
+		c) Korisnik je izabrao uslugu sportski pregled.
+	4. Sistem izračunava cenu i prikazuje je korisniku.
 	5. Korisnik klikće dugme "Online plaćanje".
 	6. Korisnik unosi potrebne podatke i klikće dugme 'Potvrdi'.
 	7. Banka vrši verifikaciju podataka.

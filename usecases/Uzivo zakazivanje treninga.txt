@@ -29,7 +29,7 @@
 
 5. Alternativni tok:
     6. Trener kod kog korisnik želi da zakaže trening nije dostupan – korisnik se obaveštava da izabrani trener nije u mogućnosti da mu održi trening. Slučaj upotrebe se nastavlja na koraku 5.
-	8. Korisnik nema uplaćenih individualnih treninga. Sistem obaveštava recepcionara da korisnik da nema uplaćene treninge. Slučaj upotrebe se ili završava ili nastavlja na slučaju upotrebe "Ucivo plaćanje usluga".
+	8. Korisnik nema uplaćenih individualnih treninga. Sistem obaveštava recepcionara da korisnik da nema uplaćene treninge. Slučaj upotrebe se ili završava ili nastavlja na slučaju upotrebe "Uživo plaćanje usluga".
 
 6. Specijalni zahtevi: /
 
