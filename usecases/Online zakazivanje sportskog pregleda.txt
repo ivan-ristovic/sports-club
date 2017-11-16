@@ -4,7 +4,7 @@ Online zakazivanje sportskog pregleda
 	Korisnik – želi da zakaže sportski pregled.
 
 2. Preduslovi: 
-	Web-sajt je u funkciji. 
+	Sistem je u funkciji. 
 	Korisnik ima pristup internetu.
 	Korisnik je registrovan na sajtu.
 
@@ -13,11 +13,11 @@ Online zakazivanje sportskog pregleda
 	Centar je dobio informaciju o zakazanom pregledu.
 
 4. Osnovni tok:
-	1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+	1. Korisnik se prijavljuje na sistem.
 	2. Korisnik odlazi na deo stranice za zakazivanje sportskog pregleda.
 	3. Korisnik bira lekara kod kog želi da zakaže pregled.
 	4. Sistem korisniku prikazuje spisak slobodnih termina.
-	5. Korisnik bira slobodan termin i klikće na dugme "Zakaži pregled".
+	5. Korisnik bira slobodan termin i bira opciju "Zakaži pregled".
 	6. Sistem umanjuje broj uplaćenih pregleda korisniku.
 	7. Sistem ažurira kalendare korisnika i lekara.
 	8. Sistem obaveštava korisnika da je njegov pregled zakazan.

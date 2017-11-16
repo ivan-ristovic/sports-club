@@ -4,7 +4,7 @@
 	Neregistrovani korisnik – zeli da se registruje u sportski klub kako bi imao priliku da zakaze trening.
 
 2. Preduslovi:
-	Web-sajt je u funkciji.
+	Sistem je u funkciji.
 	Korisnik ima pristup internetu.
 
 3. Postuslovi:
@@ -12,7 +12,7 @@
 	Baza korisnika je azurirana.
 
 4. Osnovni tok:
-	1. Korisnik odlazi na deo web-sajta za registraciju novih korisnika.
+	1. Korisnik odlazi na deo sistema za registraciju novih korisnika.
 	2. Korisnik unosi potrebne podatke i kliknuo je na polje “Registruj se”.
 	3. Sistem vrsi validaciju podataka.
 	4. Sistem cuva unete podatke i obelezava nalog kao privremeni.

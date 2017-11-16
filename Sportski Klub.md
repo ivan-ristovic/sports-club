@@ -46,7 +46,7 @@ TODO
 #### [Use-Case: Rezervacija termina](https://github.com/ivan-ristovic/sportski-klub/blob/master/usecases/Rezervacija%20termina.txt)
 #### [Use-Case: Otkazivanje termina]()
 #### [Use-Case: Azuriranje termina](https://github.com/ivan-ristovic/sportski-klub/blob/master/usecases/A%C5%BEuriranje%20termina%20treninga.txt)
-#### [Use-Case: Izmena licnog dela web-sajta]()
+#### [Use-Case: Izmena licnog dela sistema]()
 #### [Use-Case: Postavljanje informacija na grupu za grupni sport]()
 #### [Use-Case: Pravljenje zahteva za novu operemu]()
 

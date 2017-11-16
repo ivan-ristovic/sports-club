@@ -5,7 +5,7 @@
     Recepcionar – Zeli da lako i brzo izvrsi registraciju korisnika na servis.
 
 2. Preduslovi: 
-    Web-sajt je u funkciji.
+    Sistem je u funkciji.
     Recepcionar ima pristup internetu.
 
 3. Postuslovi: 
@@ -14,7 +14,7 @@
 
 4. Osnovni tok:
     1. Korisnik dolazi na recepciju sportskog centra i izjavljuje da zeli da se pridruzi sportskom centru. 
-    2. Recepcionar odlazi na deo web-sajta za registraciju novih korisnika.
+    2. Recepcionar odlazi na deo sistema za registraciju novih korisnika.
     3. Recepcionar pita korisnika i unosi potrebne podatke. Kliknuo je na polje “Registruj se”.
     4. Sistem vrsi validaciju podataka.
     5. Sistem cuva unete podatke.

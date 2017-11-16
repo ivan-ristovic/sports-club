@@ -12,7 +12,7 @@ Dodavanje novog trenera
 
 4. Osnovnin tok: 
 	1. Administrator otvara formu za unos podataka.
-	2. Administrator unosi neophodne podatke i klikće na dugme „Dodaj”.
+	2. Administrator unosi neophodne podatke i bira opciju „Dodaj”.
 	3. Sistem vrši validaciju podatak.
 	4. Sistem čuva unete podatke.
 	5. Sistem šalje mejl treneru sa linkom za početno pristupanje  nalogu.

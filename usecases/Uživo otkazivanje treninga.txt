@@ -5,7 +5,7 @@ Uživo otkazivanje treninga
 	Recepcionar - želi da na brz i jednostavan način izvrši otkazivanje treninga korisniku. 
 
 2. Preduslovi: 
-	Web-sajt je u funkciji. 
+	Sistem je u funkciji. 
 	Recepcionar ima pristup internetu.
 	Korisnik je registrovan.
 

@@ -4,7 +4,7 @@
 	Korisnik – želi da uz malo napora izabere program kom želi da se priključi i zakaže trening.
 
 2. Preduslovi: 
-	Web-sajt je u funkciji. 
+	Sistem je u funkciji. 
 	Korisnik ima pristup internetu.
 	Korisnik je registrovan na sajtu.
 
@@ -13,11 +13,11 @@
 	Centar je dobio informaciju o zakazanom treningu.
 
 4. Osnovni tok:
-	1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+	1. Korisnik se prijavljuje na sistem.
 	2. Korisnik odlazi na deo stranice za zakazivanje treninga.
 	3. Korisnik bira trenera kod kog želi da zakaže individualni trening.
 	4. Sistem korisniku prikazuje spisak termina trenera.
-	5. Korisnik bira slobodan termin i klikće na dugme "Zakaži trening".
+	5. Korisnik bira slobodan termin i bira opciju "Zakaži trening".
 	6. Sistem umanjuje broj uplaćenih treninga korisniku.
 	7. Sistem ažurira kalendare korisnika i trenera.
 	8. Sistem obaveštava korisnika da je njegov trening zakazan.

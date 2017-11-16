@@ -4,7 +4,7 @@ Online plaćanje treninga
 	Korisnik
 
 2. Preduslovi:
-	Web-sajt je u funkciji.
+	Sistem je u funkciji.
 	Korisnik ima pristup internetu.
 	Korisnik je registrovan.
 
@@ -14,17 +14,17 @@ Online plaćanje treninga
 	Sportski klub je dobio informaciju o uplati treninga.
 
 4. Osnovni tok:
-	1. Korisnik se prijavljuje na svoj profil na web-sajtu.
+	1. Korisnik se prijavljuje na sistem.
 	2. Odlazi na deo stranice za online uplatu treninga.
 	3. Korisnik bira vrstu usluge koju želi da plati.
-		a) Korisnik je izabrao uslugu grupni sport. 
+		a) Korisnik je izabrao uslugu grupni sport.
 		   Korisnik bira vrstu grupnog sporta.
 		b) Korisnik je izabrao uslugu individualni treninzi.
 		   Korisnik unosi broj individualnih treninga koje želi da uplati.
 		c) Korisnik je izabrao uslugu sportski pregled.
 	4. Sistem izračunava cenu i prikazuje je korisniku.
-	5. Korisnik klikće dugme "Online plaćanje".
-	6. Korisnik unosi potrebne podatke i klikće dugme 'Potvrdi'.
+	5. Korisnik bira opciju "Online plaćanje".
+	6. Korisnik unosi potrebne podatke i bira opciju 'Potvrdi'.
 	7. Banka vrši verifikaciju podataka.
 	8. Banka izvršava uplatu i obaveštava sistem o uspešnosti uplate.
 	9. Sistem čuva informaciju o tome da je uspešno izvršena uplata.
@@ -32,12 +32,12 @@ Online plaćanje treninga
 	11. Sistem obaveštava korisnika da je uspešno izvršena uplata.
 
 5. Alternativni tok:
-	6. Korisnik klikće na dugme "Otkaži". Slučaj upotrebe se završava.
+	6. Korisnik bira opciju "Otkaži". Slučaj upotrebe se završava.
 	7. Verifikacija podataka nije prošla uspešno. Sistem obaveštava korisnika da podaci nisu ispravni i da ih unese ponovo. Slučaj upotrebe se nastavlja na koraku 6.
 	8. Greška prilikom uplate. Sistem obaveštava korisnika da je došlo do greške prilikom plaćanja i da pokuša ponovo kasnije. Slučaj upotrebe se nastavlja na koraku 6.
 
 6. Specijalni zahtevi: /
 
-7. Dodatne informacije: 
+7. Dodatne informacije:
 	Potrebni podaci za online uplatu su: broj kartice korisnika, datum isteka kartice i vrsta kartice.
 	Koristi se spoljašnji informacioni sistem banke.

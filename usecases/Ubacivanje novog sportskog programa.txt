@@ -12,7 +12,7 @@ Ubacivanje novog sportskog programa
     
 4. Osnovni tok: 
     1. Administrator bira opciju za dodavanje novog programa.
-    2. Administrator unosi neophodne podatke u formu i klikće na dugme „Dodaj“.
+    2. Administrator unosi neophodne podatke u formu i bira opciju „Dodaj“.
     3. Sistem unosi podatke o novom programu u bazu.
     4. Sistem obaveštava administratora o uspšnosti dodavanja programa.
 

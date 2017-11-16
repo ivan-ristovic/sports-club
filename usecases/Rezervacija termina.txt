@@ -4,18 +4,18 @@ Rezervacija termina treninga
     Trener – želi da rezerviše termin za novi trening.
 
 2. Preduslovi:
-    Web-sajt je u funkciji.
+    Sistem je u funkciji.
     Trener ima pristup internetu.
     
 3. Postuslovi:
     Trener je obavešten da je novi trening unet u sistem.
-    Novi termin se prikazuje u rasporedu aktivnosti na web-sajtu.
+    Novi termin se prikazuje u rasporedu aktivnosti na sistemu.
 
 4. Osnovni tok:
-    1. Trener se prijavljuje na svoj profil na web-sajtu.
+    1. Trener se prijavljuje na sistem.
     2. Trener odlazi na deo stranice za unošenje novog termina treninga.
     3. Trener bira trening koji želi da doda, kao i vreme u kom će se trening održavati.
-    4. Trener pritiska na dugme 'Potvrdi' i sistem unosi novi termin u bazu.
+    4. Trener bira opciju 'Potvrdi' i sistem unosi novi termin u bazu.
     5. Sistem obaveštava trenera da je dodavanje termina uspešno.
 
 5. Alternativni tok:
