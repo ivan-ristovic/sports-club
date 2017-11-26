@@ -7,7 +7,7 @@
 		Sistem je u funkciji.
 		Upravi je stigao zahtev trenera za novu opremu.
 	
-	3. Postudlovi
+	3. Postuslovi:
 		Treneri su obavešteni o stanju njihovih zahteva.
 		Naruèena je potrebna oprema.
 		
