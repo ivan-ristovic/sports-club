@@ -1,0 +1,30 @@
+	Obrada zahteva za novu opremu
+
+	1. Uèesnici:
+		Uprava - želi da ima uvid šta je sve trenerima potrebno od nove opreme.
+	
+	2. Preduslovi:	
+		Sistem je u funkciji.
+		Upravi je stigao zahtev trenera za novu opremu.
+	
+	3. Postudlovi
+		Treneri su obavešteni o stanju njihovih zahteva.
+		Naruèena je potrebna oprema.
+		
+	4. Osnovni tok:
+		1. Uprave se priijavljuje na sistem.
+		2. Uprava odlazi na deo stranice za praæenje zahteva za novu opremu.
+		3. Uprava pregleda i razmatra pristigao zahtev. 
+		4. Uprava obeležava zahtev kao 'Prihvaæen'.
+		5. Sistem šalje obaveštenje treneru da je njegov zahtev prihvaæen.
+		6. Sluèaj upotrebe se nastavlja na korak 4, ako postoji još zahteva koje uprava želi da obradi.
+		7. Uprava sastavlja konaèan spisak potrebne opreme.
+		8. Uprava naruèuje potrebnu opremu.
+
+	5. Alternativni tok:
+		4.1. Uprava obeležava zahtev kao 'Odbijen'. Uprava navodi objašnjenj zašto je zahtev odbijen. Sistem šalje obaveštenje treneru da je njegov zahtev odbijen. Sluèaj upotrebe se nastavlja na koraku 6.
+		4.2. Uprava obeležava zahtev kao 'Na èekanju'. Uprava navodi objašnjenje zašto je zahtev stavljen na èekanje. Sistem šalje obaveštenje treneru da je njegov zahtev na èekanju. Sluèaj upotrebe se nastavlja na koraku 6.
+
+	6. Specijalni zahtevi: /
+
+	7. Dodatne informacije: /
