@@ -1,0 +1,26 @@
+Izmena ličnih podataka 
+
+1. Učesnici:
+    Trener – želi da izmeni svoje podatke, čineći ih relevantnijim.
+
+2. Preduslovi:
+    Sistem je u funkciji.
+    Trener ima pristup internetu.
+    
+3. Postuslovi:
+    Trener je obavešten da je su njegovi podaci uspešno izmenjeni.
+    Lična stranica trenera, dostupna svim korisnicima, je ažurirana.
+
+4. Osnovni tok:
+    1. Trener se prijavljuje na sistem.
+    2. Trener odlazi na deo stranice za menjanje ličnih podataka.
+    3. Trener menja svoje informacije.
+    4. Trener bira opciju 'Potvrdi' i sistem ažurira podatke tog trenera u bazi.
+    5. Sistem obaveštava trenera da je izmena podataka uspešna.
+
+5. Alternativni tok: 
+	3. Trener je uneo pogrešan format informacija: Sistem prikazuje grešku pored polja sa pogrešnim unosom kao i ispravan format tog polja. Slučaj upotrebe se nastavlja na koraku 3.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

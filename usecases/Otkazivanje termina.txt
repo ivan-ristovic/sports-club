@@ -1,0 +1,27 @@
+Otkazivanje termina treninga
+
+1. Učesnici:
+    Trener – želi da otkaže termin nekog treninga.
+
+2. Preduslovi:
+    Sistem je u funkciji.
+    Trener ima pristup internetu.
+    
+3. Postuslovi:
+    Trener je obavešten da je termin uklonjen iz sistema.
+    Termin je uklonjen iz rasporeda aktivnosti.
+	Korisnici, prijavljeni na trening čiji je termin promenjen, su obavešteni o otkazivanju.
+
+4. Osnovni tok:
+    1. Trener se prijavljuje na sistem.
+    2. Trener odlazi na deo stranice za brisanje termina treninga.
+    3. Trener bira trening čiji termin želi da obriše, a zatim i sam termin.
+    4. Trener bira opciju 'Potvrdi' i sistem briše izabrani termin iz baze.
+    5. Sistem obaveštava trenera da je brisanje termina uspešno.
+	6. Sistem šalje obaveštenje svim korisnicima koji su prijavljeni na taj trening da je došlo do izmene.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /
