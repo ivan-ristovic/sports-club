@@ -1,0 +1,23 @@
+Planiranje kalenadara aktivnosti - dodavanje
+
+1. Učesnici:
+	Korisnik – zeli da na jednostavan način doda stavke u svoj kalendar aktivnosti.
+
+2. Preduslovi:
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan.
+
+3. Postuslovi:
+    Izmenjen je personalni kalendar korisnika.
+
+4. Osnovni tok:
+    1. Korisnik se prijavljuje na sistem.
+    2. Korisnik odlazi na stranu gde se nalazi stavka koju želi da doda u svoj kalendar.
+    3. Korisnik bira opciju 'Dodaj u kalendar'.
+	4. Sistem čuva informaciju o izboru i ažurira kalendar korisnika.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatni informacije: /
