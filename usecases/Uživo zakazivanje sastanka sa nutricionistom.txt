@@ -1,0 +1,36 @@
+Uživo zakazivanje sastanka sa nutricionistom
+
+1. Učesnici: 
+    Korisnik
+    Recepcionar
+
+2. Preduslovi: 
+    Sistem je u funkciji. 
+    Korisnik je registrovan.
+    Korisnik razgovora uživo sa recepcionarem.
+
+3. Postuslovi:
+    Korisnik je dobio potvrdu da je njegov sastanak sa nutricionistom zakazan. 
+    Centar je dobio informaciju o zakazanom sastanku.
+
+4. Osnovni tok:
+    1. Korisnik dolazi na recepciju sportskog centra.
+    2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
+    3. Korisnik daje recepcionaru svoju člansku kartu, username ili mail.
+    4. Recepcionar se povezuje na deo sistema preko kojeg je u mogućnosti da ažurira korisnički nalog.
+    5. Korisnik bira nutricionistu sa kojim zeli da zakaze sastanak.
+    6. Recepcionar unosi podatke u sistem i bira opciju "Zakaži sastanak".
+    7. Sistem čuva informaciju da je korisnik zakazao satanak.
+    8. Sistem umanjuje broj uplaćenih sastanaka korisniku.
+    9. Sistem ažurira kalendare korisnika i nutricioniste.
+    10. Sistem obaveštava recepcionara da je sastanak zakazan.
+    11. Recepcionar obaveštava korisnika da je sastanak zakazan.
+    12. Sistem obaveštava nutricionistu da je zakazan novi sastanak.
+
+5. Alternativni tok:
+    6. Nutricionista sa kojim korisnik želi da zakaže sastanak nije dostupan – korisnik se obaveštava da izabrani nutricionista nije dostupan. Slučaj upotrebe se nastavlja na koraku 5.
+    8. Korisnik nema uplaćenih sastanaka. Sistem obaveštava recepcionara da korisnik da nema ni jedan uplaćen sastanak. Slučaj upotrebe se ili završava ili nastavlja na slučaju upotrebe "Uživo plaćanje usluga".
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

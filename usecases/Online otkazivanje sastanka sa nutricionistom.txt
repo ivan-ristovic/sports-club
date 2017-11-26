@@ -1,0 +1,32 @@
+Online otkazivanje sastanka sa nutricionistom
+
+1. Učesnici: 
+	Korisnik – želi da zakaže sastanak sa nutricionistom.
+
+2. Preduslovi:
+	Sistem je u funkciji. 
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan na sajtu.
+
+3. Postuslovi:
+	Korisnik je dobio potvrdu da je njegov sastanak otkazan.
+	Nutricionista je dobio informaciju da je sastanak otkazan.
+	Sportski klub je dobio informaciju da je sastanak otkazan.
+
+4. Osnovni tok:
+	1. Korisnik se prijavljuje na sistem.
+	2. Korisnik odlazi na deo stranice sa svojim vec zakazanim sastancima sa nutricionistom.
+	3. Korisnik iz liste zakazanih sastanaka bira sastanak koji želi da otkaže.
+	4. Korisnik bira opciju 'Otkaži'.
+	5. Sistem čuva informaciju o otkazivanju sastanka i ažurira bazu.
+    6. Sistem uvećava broj uplaćenih sastanaka korisniku.
+	7. Sistem obaveštava nutricionistu da je sastanak otkazan.
+	8. Sistem ažurira kalendar nutricioniste i korisnika.
+	9. Sistem obaveštava korisnika da je njegov sastanak otkazan.
+
+5. Alternativni tok:
+    5. Rok za otkazivanje sastanka sa nutricionistom je prosao. Sistem odbija da otkaže sastanak i obaveštava korisnika o neuspehu. Slučaj upotrebe se završava.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

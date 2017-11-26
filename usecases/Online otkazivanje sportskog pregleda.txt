@@ -20,7 +20,8 @@ Online otkazivanje sportskog pregleda
 	5. Sistem čuva informaciju o otkazivanju pregleda i ažurira bazu.
 	6. Sistem obaveštava korisnika da je njegov pregled otkazan.
 
-5. Alternativni tok: /
+5. Alternativni tok:
+    5. Rok za otkazivanje sportskog pregleda je prosao. Sistem odbija da otkaže pregled i obaveštava korisnika o neuspehu. Slučaj upotrebe se završava.
 
 6. Specijalni zahtevi: /
 

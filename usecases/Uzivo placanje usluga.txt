@@ -23,6 +23,7 @@ Uživo plaćanje usluga
         b) Korisnik je izabrao uslugu individualni treninzi.
             Korisnik unosi broj individualnih treninga koje želi da uplati.
 		c) Korisnik je izabrao uslugu sportski pregled.
+		d) Korisnik je izabrao uslugu sastanak sa nutricionistom.
     6. Recepcionar obaveštava korisnika o ceni usluge.
     7. Korisnik potvrđuje svoj izbor.
     8. Recepcionar ažurira korisnikov nalog i ceka potvrdu sistema o uspešnosti operacije.
