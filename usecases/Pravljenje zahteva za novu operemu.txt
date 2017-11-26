@@ -1,0 +1,26 @@
+Pravljenje zahteva za novu operemu
+
+1. Učesnici:
+    Trener – želi da traži nabavku nove opreme.
+
+2. Preduslovi:
+    Sistem je u funkciji.
+    Trener ima pristup internetu.
+    
+3. Postuslovi:
+    Trener je obavešten da je njegov zahtev prihvaćen i prosleđen upravi na razmatranje.
+    Upravi je stigao zahtev trenera.
+	
+4. Osnovni tok:
+    1. Trener se prijavljuje na sistem.
+    2. Trener odlazi na deo stranice za pisanje zahteva za novu opremu.
+    3. Trener unosi podatke o opremi koja mu je potrebna.
+    4. Trener bira opciju 'Potvrdi' i sistem unosi podatke o opremi u bazu.
+    5. Sistem obaveštava trenera da je njegov zahtev prihvaćen.
+	6. Sistem šalje obaveštenje upravi da je postavljen novi zahtev.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: podaci koje trener unosi su tip opreme (rekvizit, sprava), vrsta aktivnosti za koju je oprema potrebna, sala u kojoj će stajati i objašnjenje zašto je oprema potrebna.

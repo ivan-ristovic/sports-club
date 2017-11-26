@@ -1,0 +1,28 @@
+Postavljanje informacija na grupu za grupni sport
+
+1. Učesnici:
+    Trener – želi da obavesti članove grupe kojoj drži trening o izmenama, novostima itd.
+
+2. Preduslovi:
+    Sistem je u funkciji.
+    Trener ima pristup internetu.
+    
+3. Postuslovi:
+    Trener je obavešten da je informacija okačena na grupu.
+    Informacija je okačena na grupu i dostupna svim članovima grupe.
+	Korisnici, prijavljeni na trening za koji je okačena informacija, su obavešteni o izmeni.
+
+4. Osnovni tok:
+    1. Trener se prijavljuje na sistem.
+    2. Trener odlazi na deo stranice sa spiskom grupa kojima drži treninge.
+    3. Trener bira grupu u kojoj želi da okači informaciju.
+	4. Trener unosi tekst informacije u polje.
+    5. Trener bira opciju 'Potvrdi' i sistem unosi informaciju u bazu.
+    6. Sistem obaveštava trenera da je postavljanje informacije uspešno izvršeno.
+	7. Sistem šalje obaveštenje svim korisnicima koji su prijavljeni na taj trening da je došlo do izmene.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /
