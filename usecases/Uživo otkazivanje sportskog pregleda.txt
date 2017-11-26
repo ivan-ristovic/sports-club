@@ -1,0 +1,33 @@
+Uživo otkazivanje sportskog pregleda
+
+1. Učesnici: 
+    Registrovani korisnik
+    Recepcionar
+
+2. Preduslovi: 
+    Sistem je u funkciji. 
+    Korisnik je registrovan.
+    Korisnik razgovora uživo sa recepcionarem.
+
+3. Postuslovi: 
+    Korisnik je dobio konfirmaciju da je njegov pregled otkazan.
+    Centar je dobio informaciju o otkazanom pregledu.
+
+4. Osnovni tok:
+    1. Korisnik dolazi na recepciju sportskog centra.
+    2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
+    3. Korisnik daje recepcionaru svoju člansku kartu, username ili mail.
+    4. Recepcionar se povezuje na deo sistema preko kojeg je u mogućnosti da ažurira korisnički nalog.
+    6. Recepcionar pronalazi zakazani pregled tog korisnika i bira opciju "Otkaži pregled".
+    7. Sistem čuva informaciju da je korisnik otkazao pregled.
+    8. Sistem uvećava broj uplaćenih pregleda korisniku.
+    9. Sistem ažurira kalendare korisnika i lekara.
+    10. Sistem obaveštava recepcionara da je pregled otkazan.
+    11. Recepcionar obaveštava korisnika da je pregled otkazan.
+    12. Sistem obaveštava lekara da je zakazani pregled otkazan.
+
+5. Alternativni tok: /    
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /
