@@ -1,0 +1,24 @@
+Planiranje kalenadara aktivnosti - brisanje
+
+1. Učesnici:
+	Korisnik – zeli da na jednostavan način obriše stavke u svom kalendaru aktivnosti.
+
+2. Preduslovi:
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan.
+
+3. Postuslovi:
+    Izmenjen je personalni kalendar korisnika.
+
+4. Osnovni tok:
+    1. Korisnik se prijavljuje na sistem.
+    2. Korisnik odlazi na stranu gde se nalazi njegov personalni kalendar.
+    3. Korisnik pronalazi stavku u kalendaru koju želi da obriše.
+    4. Korisnik bira opciju 'Ukloni'.
+	5. Sistem čuva informaciju o brisanju i ažurira kalendar korisnika.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatni informacije: /
