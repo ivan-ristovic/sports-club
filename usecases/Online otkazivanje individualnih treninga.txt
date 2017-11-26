@@ -22,7 +22,8 @@ Online otkazivanje individualnih treninga
 	7. Sistem ažurira kalendar trenera.
 	8. Sistem obaveštava korisnika da je njegov trening otkazan.
 
-5. Alternativni tok: /
+5. Alternativni tok:
+    4. Rok za otkazivanje treninga je prosao. Sistem odbija da otkaže sastanak i obaveštava korisnika o neuspehu. Slučaj upotrebe se završava.
 
 6. Specijalni zahtevi: /
 
