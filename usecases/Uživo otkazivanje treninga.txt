@@ -1,18 +1,18 @@
 Uživo otkazivanje treninga
 
-1. Učesnici: 
+1. Učesnici:
 	Korisnik - želi da otkaže individualni trening.
-	Recepcionar - želi da na brz i jednostavan način izvrši otkazivanje treninga korisniku. 
+	Recepcionar - želi da na brz i jednostavan način izvrši otkazivanje treninga korisniku.
 
-2. Preduslovi: 
-	Sistem je u funkciji. 
+2. Preduslovi:
+	Sistem je u funkciji.
 	Recepcionar ima pristup internetu.
 	Korisnik je registrovan.
 
-3. Postuslovi: 
+3. Postuslovi:
 	Korisnik je dobio potvrdu da je njegov trening otkazan.
 	Sportski klub je dobio informaciju o otkazanom treningu.
-	
+
 4. Osnovni tok:
     1. Korisnik dolazi na recepciju sportskog centra.
     2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
@@ -26,7 +26,8 @@ Uživo otkazivanje treninga
 	10. Sistem obaveštava reecpcionara da je trening otkazan.
     11. Recepcionar obaveštava korisnika da je njegov trening otkazan.
 
-5. Alternativni tok: /
+5. Alternativni tok:
+    6. Rok za otkazivanje treninga je prosao. Recepcionar obaveštava korisnika o neuspehu. Slučaj upotrebe se završava.
 
 6. Specijalni zahtevi: /
 
