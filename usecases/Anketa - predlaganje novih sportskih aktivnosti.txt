@@ -1,8 +1,7 @@
 Anketa - predlaganje novih sportskih aktivnosti
 
 1. Učesnici:
-	Korisnik - popunjava anonimnu anketu i bira opremu koju bi on hteo da klub dobije.
-	Uprava - dobija uvid u pristigle ankete.
+	Korisnik - popunjava anonimnu anketu i bira sportsku aktivnost koju bi on hteo da klub dobije.
 
 2. Preduslovi:
 	Sistem je u funkciji.
@@ -14,11 +13,10 @@ Anketa - predlaganje novih sportskih aktivnosti
 
 4. Osnovni tok:
 	1. Korisnik se prijavljuje na sistem.
-	2. Korisnik odlazi na stranicu za popunjavanje ankete.
-	3. Korisnik popunjava anonimnu anketu.
+	2. Korisnik odlazi na stranicu za popunjavanje anketa.
+	3. Korisnik popunjava jednu od anonimnu anketu.
 	4. Korisnik bira opciju 'Uradjeno'.
 	5. Sistem čuva informaciju o popunjenoj anketi.
-	6. Sistem šalje anketu upravi.
 	7. Sistem obaveštava korisnika da je njegova anketa poslata.
 
 5. Alternativni tok:
