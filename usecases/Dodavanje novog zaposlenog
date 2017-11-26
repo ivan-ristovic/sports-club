@@ -1,0 +1,32 @@
+Dodavanje novog zaposlenog
+
+1. Učesnici: 
+	Sistemski administrator – želi da na jednostavan način doda novog zaposlenog u sistem i da mu dodeli odgovarajuće privilegije.
+
+2. Preduslovi: 
+	Administrator ima sve neophodne podatke o zaposlenom.
+
+3. Postuslovi: 
+	Novi zaposleni je dodat u sistem. 
+	Novi zaposleni je dobio svoj lični nalog.
+
+4. Osnovni tok: 
+	1. Administrator otvara formu za unos podataka.
+	2. Administrator bira vrstu zaposlenog: 
+		a) trener
+		b) nutricionista
+		c) sportski lekar 
+	3. Administrator unosi neophodne podatke i bira opciju „Dodaj”.
+	4. Sistem vrši validaciju podataka.
+	5. Sistem čuva unete podatke.
+	6. Sistem šalje mejl zaposlenom sa linkom za početno pristupanje nalogu.
+	7. Sistem obaveštava administratora o uspešnom dodavanju novog trenera.
+
+5. Alternativni tok:
+	3. Administrator je uočio nepravilnost u prikupljenim podacima. Administrator kontaktira zaposlenog kako bi dobio ispravne podatke. Slučaj upotrebe se nastavlja na koraku 2.
+	6. Zaposleni nije dobio mejl za pristupanje svom nalogu. Administrator zahteva od sistema da ponovo pošalje mail. Slučaj upotrebe se nastavlja na koraku 6.
+
+6. Specijalni zahtevi: /
+
+7. Dodatni informacije: 
+	Neophodni podaci za registraciju zaposlenog su: ime, prezime, datum rodjenja, mail, telefon, jmbg, adresa, zvanje, privilegije.
