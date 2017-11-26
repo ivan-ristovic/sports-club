@@ -1,8 +1,8 @@
 Uživo otkazivanje sportskog pregleda
 
 1. Učesnici: 
-    Registrovani korisnik
-    Recepcionar
+    Registrovani korisnik - želi da otkaže svoj pregled i dobije nazad jedan uplaćeni pregled.
+    Recepcionar - želi da otkaže trening i obavesti lekara o otkazivanju.
 
 2. Preduslovi: 
     Sistem je u funkciji. 
