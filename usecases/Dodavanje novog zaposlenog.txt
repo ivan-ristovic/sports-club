@@ -29,4 +29,4 @@ Dodavanje novog zaposlenog
 6. Specijalni zahtevi: /
 
 7. Dodatni informacije: 
-	Neophodni podaci za registraciju zaposlenog su: ime, prezime, datum rodjenja, mail, telefon, jmbg, adresa, zvanje, privilegije.
+	Neophodni podaci za registraciju zaposlenog su: korisničko ime, ime, prezime, datum rodjenja, mail, telefon, jmbg, adresa, zvanje, privilegije.

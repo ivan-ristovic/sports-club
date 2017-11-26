@@ -29,11 +29,4 @@
 6. Specijalni zahtevi: /
 
 7. Dodatne informacije:
-	Potrebni podaci za registraciju korisnika su:
-		1. Ime
-		2. Prezime
-		3. Username
-		4. E-mail
-		5. Lozinka
-		6. Polje za proveru lozinke
-		7. Captcha.
+	Potrebni podaci za registraciju korisnika su: korisničko ime, ime, prezime, mail, lozinka, polje za proveru lozinke, captcha.

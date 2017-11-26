@@ -4,14 +4,14 @@ Brisanje naloga
 	Sistemski administrator – želi da na jednostavan način obriše nalog bivšem zaposlenom ili korisniku koji ne koristi svoj nalog na adekvatan način.
 
 2. Preduslovi: 
-	Administrator zna ime osobe kojoj želi da obriše nalog, i eventualno neke dodatne informacije o osobi ukoliko postoje dva naloga sa istim imenom.
+	Administrator zna korisničko ime osobe kojoj želi da obriše nalog.
 
 3. Postuslovi: 
 	Korisniku ili bivšem zaposlenom je nalog obrisan. 
 
 4. Osnovni tok: 
 	1. Administrator otvara stranicu za pretraživanje korisnika sistema.
-	2. Administrator unosi ime osobe i pronalazi osobu kojoj želi da obrise nalog.
+	2. Administrator unosi korisničko ime osobe i pronalazi osobu kojoj želi da obrise nalog.
 	3. Administrator bira opciju "Obriši".
 	4. Sistem briše nalog i sve dodatne informacije vezane za njega.
 	5. Sistem obaveštava administratora o uspešnom brisanju naloga.
