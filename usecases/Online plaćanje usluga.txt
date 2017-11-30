@@ -22,6 +22,7 @@ Online plaćanje treninga
 		b) Korisnik je izabrao uslugu individualni treninzi.
 		   Korisnik unosi broj individualnih treninga koje želi da uplati.
 		c) Korisnik je izabrao uslugu sportski pregled.
+		d) Korisnik je izabrao uslugu sastanak sa nutricionistom.
 	4. Sistem izračunava cenu i prikazuje je korisniku.
 	5. Korisnik bira opciju "Online plaćanje".
 	6. Korisnik unosi potrebne podatke i bira opciju 'Potvrdi'.

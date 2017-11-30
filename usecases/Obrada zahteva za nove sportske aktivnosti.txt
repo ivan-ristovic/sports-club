@@ -1,0 +1,30 @@
+	Obrada zahteva za nove sportske aktivnosti
+
+	1. Uèesnici:
+		Uprava - želi da ispuni želje svojih korisnika o nivom sportskim aktivnostima.
+	
+	2. Preduslovi:	
+		Sistem je u funkciji.
+	
+	3. Postuslovi:
+	 	Sistemski administrator je obavešten da je potrebno dodati novu sportsku aktivnost.
+		
+	4. Osnovni tok:
+		1. Uprave se priijavljuje na sistem.
+		2. Uprava odlazi na deo stranice za praæenje anketa o novim sportskim aktivnostima.
+		3. Uprava pregleda i razmatra trenutno stanje ankete. 
+		4. Uprava ažurira stanje predloga u anketi
+			a) Uprava je resila da prihvati predlog i uvede novu sportsku aktivnost.
+			   Uprava obeležava predlog kao 'Prihvaæen' i izbacuje ga iz ankete.
+			   Sistem šalje obaveštenje sistemskom administratoru da treba da doda novu sportsku aktivnost.
+
+			b) Uprava je resila da ne želi da prihvati predlog za novu sportsku aktivnost.
+			   Uprava obelezaža predlog kao 'Odbijen' i navodi razlog odbijanja.
+			   
+		6. Sluèaj upotrebe se nastavlja na korak 4, ako postoji još predloga koje uprava želi da obradi.
+
+	5. Alternativni tok: /
+
+	6. Specijalni zahtevi: /
+
+	7. Dodatne informacije: /

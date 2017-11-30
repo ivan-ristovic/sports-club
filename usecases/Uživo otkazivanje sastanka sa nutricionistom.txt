@@ -1,0 +1,35 @@
+Uživo otkazivanje sastanka sa nutricionistom
+
+1. Učesnici: 
+    Korisnik - želi da otkaže sastanak sa nutricionistom i dobije nazad jedan uplaćeni sastanak.
+    Recepcionar - želi da otkaže korisnikov sastanak i obavesti nutricionistu o otkazivanju.
+
+2. Preduslovi: 
+    Sistem je u funkciji. 
+    Korisnik je registrovan.
+    Korisnik razgovora uživo sa recepcionarem.
+
+3. Postuslovi: 
+    Korisnik je dobio potvrdu da je njegov sastanak sa nutricionistom otkazan.
+    Nutricionista je dobio informaciju da je sastanak otkazan.
+    Centar je dobio informaciju da je sastanak otkazan.
+
+4. Osnovni tok:
+    1. Korisnik dolazi na recepciju sportskog centra.
+    2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
+    3. Korisnik daje recepcionaru svoju člansku kartu, username ili mail.
+    4. Recepcionar se povezuje na deo sistema preko kojeg je u mogućnosti da ažurira korisnikov nalog.
+    5. Recepcionar pronalazi zakazani sastanak tog korisnika i bira opciju "Otkaži sastanak".
+    6. Sistem čuva informaciju da je korisnik otkazao sastanak.
+    7. Sistem uvećava broj uplaćenih sastanaka korisniku.
+    8. Sistem ažurira kalendare korisnika i nutricioniste.
+    9. Sistem obaveštava recepcionara da je sastanak uspešno otkazan.
+    10. Recepcionar obaveštava korisnika da je sastanak otkazan.
+    11. Sistem obaveštava nutricionistu da je zakazani sastanak otkazan.
+
+5. Alternativni tok:
+    7. Rok za otkazivanje sastanka sa nutricionistom je prosao. Sistem odbija da otkaže sastanak i obaveštava recepcionara o neuspehu. Recepcionar prenosi obaveštenje korisniku. Slučaj upotrebe se završava.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

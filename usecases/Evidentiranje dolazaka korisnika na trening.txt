@@ -1,0 +1,26 @@
+Evidentiranje dolaska korisnika na trening
+
+1. Učesnici:
+    Korisnik – dolazi na trening.
+    Recepcionar - obaveštava sistem da je korisnik prisustvovao treningu.
+
+2. Preduslovi:
+    Korisnik je registrovan.
+    Korisnik je prijavljen na trening.
+
+3. Postuslovi:
+    Sistem procesira informaciju o dolasku korisnika na trening. Ažurira se broj učesnika treninga.
+
+4. Osnovni tok:
+    1. Korisnik dolazi na recepciju sportskog centra.
+    2. Recepcionar traži od korisnika da mu da člansku kartu, username ili mail.
+    3. Korisnik daje recepcionaru svoju člansku kartu, username ili mail.
+    4. Recepcionar se povezuje na deo sistema preko kojeg je u mogućnosti da obeleži da je korisnik stigao na trening.
+    6. Recepcionar pronalazi zakazani trening i dodaje informaciju da je korisnik stigao.
+    7. Sistem čuva informaciju da je korisnik stigao na trening.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatni informacije: /

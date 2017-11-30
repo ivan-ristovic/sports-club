@@ -26,7 +26,8 @@ Uživo otkazivanje sportskog pregleda
     11. Recepcionar obaveštava korisnika da je pregled otkazan.
     12. Sistem obaveštava lekara da je zakazani pregled otkazan.
 
-5. Alternativni tok: /    
+5. Alternativni tok:
+    7. Rok za otkazivanje sportskog pregleda je prošao. Sistem odbija da otkaže sportski pregled i obaveštava recepcionara o neuspehu. Recepcionar prenosi obaveštenje korisniku. Slučaj upotrebe se završava.     
 
 6. Specijalni zahtevi: /
 

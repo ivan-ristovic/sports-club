@@ -33,4 +33,4 @@
     Slucaj upotrebe treba brzo da se izvrsi brzo kako bi korisnik mogao brzo da pocne da koristi mogucnosti sportskog kluba.
 
 7. Dodatne informacije: 
-    Potrebni podaci za registraciju korisnika su: ime, prezime, mail, lozinka, polje za proveru lozinke, captcha.
+    Potrebni podaci za registraciju korisnika su: korisničko ime, ime, prezime, mail, lozinka, polje za proveru lozinke, captcha.

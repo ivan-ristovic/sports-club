@@ -1,0 +1,28 @@
+Online otkazivanje sportskog pregleda
+
+1. Učesnici:
+	Korisnik - želi da na brz i jednostavan način otkaže sportski pregled.
+
+2. Preduslovi:
+	Sistem je u funkciji.
+	Korisnik ima pristup internetu.
+	Korisnik je registrovan.
+
+3. Postuslovi:
+	Korisnik je dobio potvrdu da je pregled otkazan.
+	Sportski klub je dobio informaciju o otkazanom pregledu.
+
+4. Osnovni tok:
+	1. Korisnik se prijavljuje na sistem.
+	2. Korisnik odlazi na deo stranice sa svojim već zakazanim pregledima.
+	3. Korisnik iz liste zakazanih pregleda bira pregled koji želi da otkaže.
+	4. Korisnik bira opciju 'Otkaži'.
+	5. Sistem čuva informaciju o otkazivanju pregleda i ažurira bazu.
+	6. Sistem obaveštava korisnika da je njegov pregled otkazan.
+
+5. Alternativni tok:
+    5. Rok za otkazivanje sportskog pregleda je prosao. Sistem odbija da otkaže pregled i obaveštava korisnika o neuspehu. Slučaj upotrebe se završava.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

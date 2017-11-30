@@ -1,0 +1,24 @@
+Brisanje sportskog programa
+
+1. Učesnici:
+	Sistemski administrator – Želi da na jednostavan način obriše sportski program koji se više ne održava.
+    
+2. Preduslovi:
+	Administrator zna ime ili šifru sportskog programa kog želi da obriše.
+    
+3. Postuslovi:
+	Sportski program je obrisan iz sistema.
+    
+4. Osnovni tok: 
+	1. Administrator otvara stranicu za pretraživanje sportskih programa.
+	2. Administrator unosi ime ili šifru sportskog programa i pronalazi sportski program koji želi da obriše.
+	3. Administrator bira opciju "Obriši".
+	4. Sistem briše sportski program i sve dodatne informacije vezane za njega.
+	5. Sistem obaveštava administratora o uspešnom brisanju sportskog programa.
+
+5. Alternativni tok:
+	5. Sistem obaveštava administratora da sportski program nije uspešno obrisan i kaze mu da pokuša ponovo. Slučaj upotrebe se nastavlja na koraku 3.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: /

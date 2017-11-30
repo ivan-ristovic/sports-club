@@ -1,0 +1,21 @@
+Pravljenje platnog spiska
+
+1. Učesnici:
+    Recepcionar - pravi platni spisak za zaposlene na osnovu informacija dobijenih od sistema.
+
+2. Preduslovi:
+    Recepcionar je ulogovan na svoj nalog.
+
+3. Postuslovi:
+    Platni spisak je napravljen.
+
+4. Osnovni tok:
+    1. Recepcionar od sistema zahteva informacije o spisku zaposlenih i njihovih plata za tekući mesec.
+    2. Recepcionar na osnovu dobijenih informacija sačinjava platni spisak.
+    3. Recepcionar na osnovu sastavljenog spiska uplaćuje plate zaposlenima.
+
+5. Alternativni tok: /
+
+6. Specijalni zahtevi: /
+
+7. Dodatni informacije: /

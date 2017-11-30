@@ -1,0 +1,23 @@
+Postavljanje informacija na sistem
+
+1. Učesnici:
+	Sistemski administrator - želi da na jednostavan način postavi dodatne informacije u vidu članka na sistem.
+    
+2. Preduslovi: /
+    
+3. Postuslovi:
+	Postavljene su dodatne informacije u vidu članka na sistem, i dostupne su svim korisnicima sistema.
+    
+4. Osnovni tok: 
+	1. Administrator otvara stranicu sa informacijama i bira opciju "Novi članak".
+	2. Administrator unosi tekst članka i bira opciju "Dodaj novi članak".
+	3. Sistem dodaje novi članak na sistem.
+	4. Sistem obaveštava administratora o uspešnom dodavanju novog članka na sistem.
+
+5. Alternativni tok:
+	4. Sistem obaveštava administratora da novi članak nije uspešno dodat na sistem i kaze mu da pokuša ponovo. Slučaj upotrebe se nastavlja na koraku 2.
+
+6. Specijalni zahtevi: /
+
+7. Dodatne informacije: 
+	Administrator od informacija unosi ime članka, tekst članka i slike.
