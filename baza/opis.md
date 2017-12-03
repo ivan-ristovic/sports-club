@@ -15,7 +15,7 @@ Baza sadrži sledeće entitete:
     - zaposleni
     - korisnik
     - aktivnost
-    - spisak sala
+    - sala
 - zavisni:
     - trener (zavisi od zaposlenog)
     - lekar (zavisi od zaposlenog)
@@ -68,6 +68,7 @@ Nutricionista je zaposlen u sportskom centru.
 Trener može držati više različitih aktivnosti. Jednu aktivnost može držati više različitih trenera.
 Aktivnost karakteriše:
 - id aktivnosti
+- naziv
 
 ### Individualna
 Individualna aktivnost je vrsta aktivnosti.
@@ -75,6 +76,12 @@ Individualna aktivnost je vrsta aktivnosti.
 
 ### Grupna
 Grupna aktivnost je vrsta aktivnosti.
+- id aktivnosti
+
+
+## Drži
+Sadrži informacije o trenerima i aktivnostima koji oni trže.
+- id trenera
 - id aktivnosti
 
 ## Sala
@@ -87,6 +94,11 @@ Salu karakteriše:
 Sadrži informacije o registrovanim korisnicima sportskog centra.
 Korisnika karakteriše:
 - id
+- ime
+- prezime
+- username
+- mail
+- adresa
 - broj treninga
 
 ## Uplata
@@ -99,16 +111,23 @@ Uplatu karakteriše:
 
 ## Rezervisan termin
 Mogu se rezervisati termini za aktivnosti po salama koje drže treneri. Jedan termin karakteriše:
-- id
+- id rezervisanog termina
+- id sale
 - datum
 - vreme
+- id trenera
+- id aktivnosti
 
-### Termin za individualne aktivnosti
+### Individualni rezervisan termin
+- id rezervisanog termina
 
-### Termin za grupne aktivnosti
+### Grupni rezervisan termin
+- id rezervisanog termina
 
 ## Kalendar
-Rezervisani termini od strane jednog korisnika se prikazuju u njegovom personalizovanom kalendaru.
+Rezervisani termini od strane jednog korisnika se prikazuju u njegovom personalizovanom kalendaru. Korisnik moze staviti u svoj kalendar rezervisan termin grupnog treninga kome želi da prisustvuje.
+- id korisnika
+- id rezervisanog termina
 
 ## Prisustvuje
 Sadrži informacije o prisustvovanju korisnika nekoj grupnoj aktivnosti centra.
@@ -118,9 +137,8 @@ Sadrži informacije o prisustvovanju korisnika nekoj grupnoj aktivnosti centra.
 ## Zakazana individualna aktivnost
 Korisnici mogu zakazati termin za individualne aktivnosti. Jedno zakazivanje karakteriše:
 - došao
-
-## Grupa prisustvuje
-Korisnik može da prisustvuje terminu za grupne aktivnosti.
+- id korisnika
+- id rezervisanog termina
 
 ## Uplata razgovora
 Sadrži informacije o uplatama korisnika za razgovore sa nutricionistom. Jedan korisnik može uplatiti više termina.
