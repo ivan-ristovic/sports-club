@@ -3,20 +3,20 @@
 ## Opis
 
 Baza sportkog centra sadrži informacije o:
-    1. zaposlenima u sportskom centru (trenerima, lekarima, nutricionistima, recepcionarima i sistemskim administratorima),
-    2. korisnicima
-    3. aktivnostima koje se održavaju u sportskom centru kao i informacije o učesnicima u njima,
-    4. uplatama korisnika za usluge sportskog centra.
+1. zaposlenima u sportskom centru (trenerima, lekarima, nutricionistima, recepcionarima i sistemskim administratorima),
+2. korisnicima
+3. aktivnostima koje se održavaju u sportskom centru kao i informacije o učesnicima u njima,
+4. uplatama korisnika za usluge sportskog centra.
 
 ### Opis entiteta
 
 Baza sadrži sledeće entitete:
-a) nezavisni:
+- nezavisni:
     - zaposleni
     - korisnik
     - aktivnost
     - spisak sala
-b) zavisni:
+- zavisni:
     - trener (zavisi od zaposlenog)
     - lekar (zavisi od zaposlenog)
     - nutricionista (zavisi od zaposlenog)
@@ -26,7 +26,7 @@ b) zavisni:
     - individualna aktivnost (zavisi od aktivnosti)
     - grupni rezervisan termin (zavisi od rezervisanog termina)
     - individualni rezervisan termin (zavisi od rezervisanog termina)
-c) agregirani:
+- agregirani:
     - drži (veza: trener - aktivnost)
     - rezervisan termin (veza: drži - spisak sala)
     - kalendar (veza: korisnik - rezervisan termin)
