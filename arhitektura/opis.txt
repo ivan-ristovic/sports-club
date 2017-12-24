@@ -1,0 +1,10 @@
+﻿    - Zakazivanja:
+        Predstavlja grupu različitih akcija: zakazivanje treninga, pregleda itd. Korisnik sistema na prezentacionom sloju salje zahtev za zakazivanje, i taj zahtev se propagira kroj slojeve ispod i na kraju čuva u bazi podataka sistema. Na kraju, ukoliko je akcija uspela, korisnik dobija potvrdu.
+    - Registracija: 
+        Neregistrovani korisnici mogu da se registruju na sistem kako bi mogi da koriste funkcionalnosti ograničene samo za registrovane korisnike. Na prezentacionom sloju se zahteva registracija i unose potrebni podaci, dok se na slojevima ispod vrši validacija  i čuvanje unetih podataka ukoliko su oni validni.
+    - Lični deo:
+        Registrovani korisnici imaju svoju ličnu stranu na kojoj se nalaze razne informacije vezane za specifičnog korisnika sistema. Da bi se pristupilo ličnom delu nekog korisnika, mora se izvršiti autentikacija i autorizovati pristup. Autentikaciju vrši sistem na slojevima ispod.
+    - Anketa:
+        Registrovani korisnici mogu popunjavati razne ankete, i za pristup anketi je potrebna autorizacija od strane sistema koja se vrši na slojevima ispod.
+    - Info
+        Raznovrsne informacije dostupne svim korisnicima sistema. Za njihovo pregledanje nisu potrebne nikakve specijalne permisije.
