@@ -42,6 +42,11 @@
 			.nav-pills> li.active>a{
 				background-color: #e60000;
 			}
+			div.button-pill{
+				margin: auto;
+				width: 86.8px;
+				height: 40px;
+			}
 		</style>
 	</head>
 	<body>
@@ -68,8 +73,13 @@
 					Username ili email adresa:<br>
 					<input type="text" name="firstname"><br>
 					Šifra:<br>
-					<input type="text" name="lastname">
+					<input type="text" name="lastname"><br><br>					
 				</form>
+				<div class="button-pill">
+					<ul class="nav nav-pills">
+						<li role="presentation" class="active"><a href="prijavljenIndex.php">Prijavi se</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		

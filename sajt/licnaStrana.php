@@ -47,9 +47,6 @@
 				width: 190px;
 				float: left;
 			}
-			.btn-group-vertical button {
-				margin-bottom: 6px;
-			}
 			.content{
 				margin-left: 220px;
 			}

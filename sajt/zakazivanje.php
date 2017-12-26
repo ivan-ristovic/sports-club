@@ -47,11 +47,16 @@
 				width: 190px;
 				float: left;
 			}
-			.btn-group-vertical button {
-				margin-bottom: 6px;
+			.content {
+				float: left;
 			}
-			.content{
-				margin-left: 220px;
+			span {
+				font-size: 25px;
+				font-weight: bold;
+			}
+			select {
+				width: 250px;
+				height: 30px;
 			}
 		</style>
 	</head>
@@ -88,8 +93,27 @@
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					</ul>
 				</nav>
-				<div class="content">
-				
+				<div class="content" style="margin-top: 25px;">
+					<form>
+						
+						<span>Izaberi trenera:</span><br>
+						<select name="treneri">
+							<option value="trener1">trener1</option>
+							<option value="trener2">trener2</option>
+							<option value="trener3">trener3</option>
+							<option value="trener4">trener4</option>
+						</select>
+						<br><br>
+						<span>Izaberi jedan od slobodnih termina:</span><br>
+						<select name="termini">
+							<option value="termin1">termin1</option>
+							<option value="termin2">termin2</option>
+							<option value="termin3">termin3</option>
+							<option value="termin4">termin4</option>
+						</select>
+						
+					
+					</form>
 				</div>
 			</div>
 		</div>
