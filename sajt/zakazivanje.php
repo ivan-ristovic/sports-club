@@ -50,6 +50,9 @@
 			.content {
 				float: left;
 			}
+			form {
+				width: 1000px;
+			}
 			span {
 				font-size: 25px;
 				font-weight: bold;
@@ -57,6 +60,18 @@
 			select {
 				width: 250px;
 				height: 30px;
+			}
+			.treneri {
+				float: left;
+			}
+			.uplaceni {
+				float: right;
+			}
+			.termini {
+				float: left;
+			}
+			.dugme{
+				float: left;
 			}
 		</style>
 	</head>
@@ -83,7 +98,7 @@
 			<div class="body">
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
-					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakazi</a></li>
+					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakaži</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
@@ -95,24 +110,35 @@
 				</nav>
 				<div class="content" style="margin-top: 25px;">
 					<form>
-						
-						<span>Izaberi trenera:</span><br>
-						<select name="treneri">
-							<option value="trener1">trener1</option>
-							<option value="trener2">trener2</option>
-							<option value="trener3">trener3</option>
-							<option value="trener4">trener4</option>
-						</select>
-						<br><br>
-						<span>Izaberi jedan od slobodnih termina:</span><br>
-						<select name="termini">
-							<option value="termin1">termin1</option>
-							<option value="termin2">termin2</option>
-							<option value="termin3">termin3</option>
-							<option value="termin4">termin4</option>
-						</select>
-						
-					
+						<div class="treneri">
+							<span>Izaberi trenera:</span><br>
+							<select name="treneri">
+								<option value="trener1">trener1</option>
+								<option value="trener2">trener2</option>
+								<option value="trener3">trener3</option>
+								<option value="trener4">trener4</option>
+							</select>
+						</div>
+						<div class="uplaceni">
+							<span>Broj uplaćenih termina:</span><br>
+							<input name="uplacenihTreninga" type="number" disabled="true">
+							<button style="background-color: green; color: white;"> Doplati treninge </button>							
+						</div>
+						<br><br><br><br><br>
+						<div class="termini">
+							<span>Izaberi jedan od slobodnih termina:</span><br>
+							<select name="termini">
+								<option value="termin1">termin1</option>
+								<option value="termin2">termin2</option>
+								<option value="termin3">termin3</option>
+								<option value="termin4">termin4</option>
+							</select>
+						</div>
+						<br><br><br><br><br><br><br>
+						<div class="dugme">
+							<button style="background-color: green; color: white;"> Potvrdi rezervaciju </button>
+							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
+						</div>
 					</form>
 				</div>
 			</div>

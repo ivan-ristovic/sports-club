@@ -75,7 +75,7 @@
 			<div class="body">
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
-					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakazi</a></li>
+					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakaži</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
