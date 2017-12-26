@@ -114,44 +114,25 @@
 					</ul>
 				</nav>
 				<div class="content" style="margin-top: 25px;">
-					<form action="zakazivanje_callback.php">
-						<div class="treneri">
-							<span>Izaberi trenera:</span><br>
-							<select name="treneri">
-                                <?php
-                                    $string = file_get_contents("baza.json");
-                                    $json_a = json_decode($string, true);
-                                    foreach ($json_a["treneri"] as $value)
-                                        echo "<option value='".$value."'>".$value."</option>";
-                                ?>
-							</select>
-						</div>
-						<div class="uplaceni">
-							<span>Broj uplaćenih termina:</span><br>
-							<input name="uplacenihTreninga" type="number" disabled="true"><br><br>	
-							<button style="background-color: green; color: white;"> Doplati treninge </button>							
-						</div>
-						<br><br><br><br><br>
-						<div class="termini">
-							<span>Izaberi jedan od slobodnih termina:</span><br>
-							<select name="termini">
-                                <?php
-                                    $string = file_get_contents("baza.json");
-                                    $json_a = json_decode($string, true);
-                                    foreach ($json_a["termini"] as $value)
-                                        echo "<option value='".$value."'>".$value."</option>";
-                                ?>
-							</select>
-<!--							<br><br>
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=250&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rib825q0i8gectj45ldsbsbgdc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FBelgrade" style="border-width:0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
--->			
-						</div>
-						<br><br><br><br><br><br><br><br><br><br>
-						<div class="dugme">
-                            <input type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
-							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
-						</div>
-					</form>
+                    <?php
+                        $string = file_get_contents("baza.json");
+                        $json_a = json_decode($string, true);
+                        
+                        if (!in_array($_GET["treneri"], $json_a["treneri"])) {
+                            echo "invalid trener";
+                        } else if (!in_array($_GET["termini"], $json_a["termini"])) {
+                            echo "invalid termin";
+                        } else {
+                            foreach (array_keys($array, $_GET["termini"]) as $key) {
+                                unset($array[$key]);
+                            }
+                            $json_data = json_encode($json_a);
+                            $fp = fopen('baza.json', 'w');
+                            fwrite($fp, $json_data);
+                            fclose($fp);
+                            echo "Izabrali ste ".$_GET["termini"]." kod trenera ".$_GET["treneri"];
+                        }
+                    ?>
 				</div>
 			</div>
 		</div>
