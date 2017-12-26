@@ -17,21 +17,16 @@
 			}
 			.logo {
 				float: left;
-				width: 550px;
+				width: 460px;
 				height: 100px;
 			}
 			.body {
 				width: 1322px;
 				height: 500px;
-				text-align: center;
-			}
-			form{
-				display: inline;
-				float: none;
 			}
 			nav {
 				float: right;
-				width: 720px;
+				width: 800px;
 				margin-top: 25px;
 				margin-right: 50px;
 			}				
@@ -40,6 +35,12 @@
 				max-height: 100%;
 			}
 			.nav-pills> li.active>a{
+				background-color: #e60000;
+			}
+			.nav-pills> li#blocked{
+				disabled: true;
+			}
+			.nav>li#blocked >a:hover, .nav>li#blocked>a:focus {
 				background-color: #e60000;
 			}
 		</style>
@@ -53,23 +54,19 @@
 				</div>
 				<nav>
 					<ul class="nav nav-pills navbar-right">
-					  <li role="presentation" class="active"><a href="index.html">Početna strana</a></li>
-					  <li role="presentation" class="active"><a href="oNama.html">O nama</a></li>
-					  <li role="presentation" class="active"><a href="treneri.html">Treneri</a></li>
-					  <li role="presentation" class="active"><a href="aktivnosti.html">Naše aktivnosti</a></li>
-					  <li role="presentation" class="active"><a href="prijavljivanje.html">Prijavljivanje</a></li>
-					  <li role="presentation" class="active"><a href="registracija.html">Registracija</a></li>
+					  <li role="presentation" class="active"><a href="prijavljenIndex.php">Početna strana</a></li>
+					  <li role="presentation" class="active"><a href="oNama.php">O nama</a></li>
+					  <li role="presentation" class="active"><a href="treneri.php">Treneri</a></li>
+					  <li role="presentation" class="active"><a href="aktivnosti.php">Naše aktivnosti</a></li>
+					  <li role="presentation" class="active"><a href="#">Odjavljivanje</a></li>
+					  <li role="presentation" class="active"><a href="licnaStrana.php">Lična strana</a></li>
+					  <li role="presentation" class="active" id="blocked"><a href="#"><img src="icon.png">Dobrodošao usertest!</a></li>
 					</ul>
 				</nav>
 			</div>
 		
 			<div class="body">
-				<form>
-					Username ili email adresa:<br>
-					<input type="text" name="firstname"><br>
-					Šifra:<br>
-					<input type="text" name="lastname">
-				</form>
+				<p> Neki content </p>
 			</div>
 		</div>
 		

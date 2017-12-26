@@ -23,6 +23,11 @@
 			.body {
 				width: 1322px;
 				height: 500px;
+				text-align: center;
+			}
+			form{
+				display: inline;
+				float: none;
 			}
 			nav {
 				float: right;
@@ -48,18 +53,23 @@
 				</div>
 				<nav>
 					<ul class="nav nav-pills navbar-right">
-					  <li role="presentation" class="active"><a href="index.html">Početna strana</a></li>
-					  <li role="presentation" class="active"><a href="oNama.html">O nama</a></li>
-					  <li role="presentation" class="active"><a href="treneri.html">Treneri</a></li>
-					  <li role="presentation" class="active"><a href="aktivnosti.html">Naše aktivnosti</a></li>
-					  <li role="presentation" class="active"><a href="prijavljivanje.html">Prijavljivanje</a></li>
-					  <li role="presentation" class="active"><a href="registracija.html">Registracija</a></li>
+					  <li role="presentation" class="active"><a href="index.php">Početna strana</a></li>
+					  <li role="presentation" class="active"><a href="oNama.php">O nama</a></li>
+					  <li role="presentation" class="active"><a href="treneri.php">Treneri</a></li>
+					  <li role="presentation" class="active"><a href="aktivnosti.php">Naše aktivnosti</a></li>
+					  <li role="presentation" class="active"><a href="prijavljivanje.php">Prijavljivanje</a></li>
+					  <li role="presentation" class="active"><a href="registracija.php">Registracija</a></li>
 					</ul>
 				</nav>
 			</div>
 		
 			<div class="body">
-				<p> Neki content </p>
+				<form>
+					Username ili email adresa:<br>
+					<input type="text" name="firstname"><br>
+					Šifra:<br>
+					<input type="text" name="lastname">
+				</form>
 			</div>
 		</div>
 		
