@@ -133,6 +133,9 @@
 								<option value="termin3">termin3</option>
 								<option value="termin4">termin4</option>
 							</select>
+<!--							<br><br>
+							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=250&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rib825q0i8gectj45ldsbsbgdc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FBelgrade" style="border-width:0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
+-->			
 						</div>
 						<br><br><br><br><br><br><br>
 						<div class="dugme">
