@@ -122,13 +122,13 @@
 					<form action="zakazivanje_callback.php">
 						<div class="treneri">
 							<span>Izaberi trenera i termin:</span><br>
-							<select>
+							<select name="termin">
 								<?php
 										$string = file_get_contents("baza.json");
 										$json_a = json_decode($string, true);
 										foreach ($json_a["treneri"] as $key => $value){
 												foreach($value as $termin){
-													echo "<option value='".$termin."'>".$key." ".$termin."</option>";
+													echo "<option value='".$key."?".$termin."'>".$key." ".$termin."</option>";
 												}
 										}
 								?>

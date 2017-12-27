@@ -118,17 +118,19 @@
                         $string = file_get_contents("baza.json");
                         $json_a = json_decode($string, true);
                         
-                        if (!in_array($_GET["treneri"], $json_a["treneri"])) {
+                        $info = explode("?", $_GET["termin"]);
+                        
+                        if (array_key_exists($info[0], $json_a["treneri"]) == false) {
                             echo "invalid trener";
-                        } else if (!in_array($_GET["termini"], $json_a["termini"])) {
+                        } else if (!in_array($info[1], $json_a["treneri"][$info[0]])) {
                             echo "invalid termin";
                         } else {
-														$json_a["termini"] = array_diff($json_a["termini"], [$_GET["termini"]]);
-														$json_data = json_encode($json_a);
-														$fp = fopen('baza.json', 'w');
+                            $json_a["treneri"][$info[0]] = array_diff($json_a["treneri"][$info[0]], [$info[1]]);
+							$json_data = json_encode($json_a);
+							$fp = fopen('baza.json', 'w');
                             fwrite($fp, $json_data);
                             fclose($fp);
-                            echo "Izabrali ste ".$_GET["termini"]." kod trenera ".$_GET["treneri"];
+                            echo "Izabrali ste termin ".$info[1]." kod trenera ".$info[0];
                         }
                     ?>
 				</div>
