@@ -123,11 +123,9 @@
                         } else if (!in_array($_GET["termini"], $json_a["termini"])) {
                             echo "invalid termin";
                         } else {
-                            foreach (array_keys($array, $_GET["termini"]) as $key) {
-                                unset($array[$key]);
-                            }
-                            $json_data = json_encode($json_a);
-                            $fp = fopen('baza.json', 'w');
+														$json_a["termini"] = array_diff($json_a["termini"], [$_GET["termini"]]);
+														print_r($json_a["termini"]);
+														$fp = fopen('baza.json', 'w');
                             fwrite($fp, $json_data);
                             fclose($fp);
                             echo "Izabrali ste ".$_GET["termini"]." kod trenera ".$_GET["treneri"];
@@ -138,4 +136,4 @@
 		</div>
 		
 	</body>
-</htm>
+</html>

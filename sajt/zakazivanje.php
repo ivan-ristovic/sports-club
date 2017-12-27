@@ -78,6 +78,11 @@
 				height: 35px;
 				font-size: 18px;
 			}
+			.input{
+				width: 230px;
+				height: 35px;
+				font-size: 18px;
+			}
 		</style>
 	</head>
 	<body>
@@ -135,12 +140,12 @@
 						<div class="termini">
 							<span>Izaberi jedan od slobodnih termina:</span><br>
 							<select name="termini">
-                                <?php
-                                    $string = file_get_contents("baza.json");
-                                    $json_a = json_decode($string, true);
-                                    foreach ($json_a["termini"] as $value)
-                                        echo "<option value='".$value."'>".$value."</option>";
-                                ?>
+									<?php
+											$string = file_get_contents("baza.json");
+											$json_a = json_decode($string, true);
+											foreach ($json_a["termini"] as $value)
+													echo "<option value='".$value."'>".$value."</option>";
+									?>
 							</select>
 <!--							<br><br>
 							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=250&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rib825q0i8gectj45ldsbsbgdc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FBelgrade" style="border-width:0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
@@ -148,7 +153,7 @@
 						</div>
 						<br><br><br><br><br><br><br><br><br><br>
 						<div class="dugme">
-                            <input type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
+                            <input class="input" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
 							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
 						</div>
 					</form>
@@ -157,4 +162,4 @@
 		</div>
 		
 	</body>
-</htm>
+</html>
