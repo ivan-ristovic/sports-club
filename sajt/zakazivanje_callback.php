@@ -123,7 +123,8 @@
                         } else if (!in_array($_GET["termini"], $json_a["termini"])) {
                             echo "invalid termin";
                         } else {
-														$json_a["termini"] = array_diff($json_a["termini"], [$_GET["termini"]]);
+														$json_a["termini"] = array(array_diff($json_a["termini"], [$_GET["termini"]]);
+														$json_data = json_encode($json_a);
 														print_r($json_a["termini"]);
 														$fp = fopen('baza.json', 'w');
                             fwrite($fp, $json_data);
