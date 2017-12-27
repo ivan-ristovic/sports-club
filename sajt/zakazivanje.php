@@ -121,14 +121,17 @@
 				<div class="content" style="margin-top: 25px;">
 					<form action="zakazivanje_callback.php">
 						<div class="treneri">
-							<span>Izaberi trenera:</span><br>
-							<select name="treneri">
-                                <?php
-                                    $string = file_get_contents("baza.json");
-                                    $json_a = json_decode($string, true);
-                                    foreach ($json_a["treneri"] as $value)
-                                        echo "<option value='".$value."'>".$value."</option>";
-                                ?>
+							<span>Izaberi trenera i termin:</span><br>
+							<select>
+								<?php
+										$string = file_get_contents("baza.json");
+										$json_a = json_decode($string, true);
+										foreach ($json_a["treneri"] as $key => $value){
+												foreach($value as $termin){
+													echo "<option value='".$termin."'>".$key." ".$termin."</option>";
+												}
+										}
+								?>
 							</select>
 						</div>
 						<div class="uplaceni">
@@ -137,20 +140,6 @@
 							<button style="background-color: green; color: white;"> Doplati treninge </button>							
 						</div>
 						<br><br><br><br><br>
-						<div class="termini">
-							<span>Izaberi jedan od slobodnih termina:</span><br>
-							<select name="termini">
-									<?php
-											$string = file_get_contents("baza.json");
-											$json_a = json_decode($string, true);
-											foreach ($json_a["termini"] as $value)
-													echo "<option value='".$value."'>".$value."</option>";
-									?>
-							</select>
-<!--							<br><br>
-							<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=250&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=rib825q0i8gectj45ldsbsbgdc%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Europe%2FBelgrade" style="border-width:0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
--->			
-						</div>
 						<br><br><br><br><br><br><br><br><br><br>
 						<div class="dugme">
                             <input class="input" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
@@ -162,4 +151,4 @@
 		</div>
 		
 	</body>
-</html>
+</htm>
