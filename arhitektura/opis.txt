@@ -1,10 +1,11 @@
-﻿    - Zakazivanja:
-        Predstavlja grupu različitih akcija: zakazivanje treninga, pregleda itd. Korisnik sistema na prezentacionom sloju salje zahtev za zakazivanje, i taj zahtev se propagira kroj slojeve ispod i na kraju čuva u bazi podataka sistema. Na kraju, ukoliko je akcija uspela, korisnik dobija potvrdu.
+﻿Arhitektura sistema se sastoji od 4 sloja: prezentacioni sloj, klijent kontroler, server kontroler i sloj podataka. Klijent kontroler izvršava validaciju podataka (provera da li su uneti podaci u ispravnom formatu) i autentifikaciju/autorizaciju (provera da li korisnik ima privilegije za izvršavanje odredjenih akcija), dok server kontroler predstavlja serversku obradu zahteva. Prezentacioni sloj pruža interfejs za izvršavnje sledećih akcija:
+    - Zakazivanje usluga:
+        Predstavlja podršku za zakazivanje različitih usluga: treninga, sportskih pregleda i sastanaka sa nutricionistom. Korisnik sistema na prezentacionom sloju šalje zahtev za zakazivanje usluge i taj zahtev se propagira kroj slojeve ispod i na kraju čuva u bazi podataka sistema. Na kraju, ukoliko je akcija uspela, korisnik dobija potvrdu.
     - Registracija: 
-        Neregistrovani korisnici mogu da se registruju na sistem kako bi mogi da koriste funkcionalnosti ograničene samo za registrovane korisnike. Na prezentacionom sloju se zahteva registracija i unose potrebni podaci, dok se na slojevima ispod vrši validacija  i čuvanje unetih podataka ukoliko su oni validni.
-    - Lični deo:
-        Registrovani korisnici imaju svoju ličnu stranu na kojoj se nalaze razne informacije vezane za specifičnog korisnika sistema. Da bi se pristupilo ličnom delu nekog korisnika, mora se izvršiti autentikacija i autorizovati pristup. Autentikaciju vrši sistem na slojevima ispod.
+        Neregistrovani korisnici mogu da se registruju na sistem kako bi mogli da koriste funkcionalnosti ograničene samo za registrovane korisnike. Na prezentacionom sloju se zahteva registracija i unose potrebni podaci, dok se na slojevima ispod vrši validacija  i čuvanje unetih podataka ukoliko su oni validni.
+    - Upravljanje ličnim delom:
+        Registrovani korisnici imaju svoju ličnu stranu na kojoj se nalaze razne informacije vezane za specifičnog korisnika sistema. Da bi se pristupilo ličnom delu nekog korisnika, mora se izvršiti autentifikacija i autorizovati pristup. Autentifikaciju vrši sistem na slojevima ispod.
     - Anketa:
         Registrovani korisnici mogu popunjavati razne ankete, i za pristup anketi je potrebna autorizacija od strane sistema koja se vrši na slojevima ispod.
-    - Info
+    - Pregledanje javno dostupnih informacija:
         Raznovrsne informacije dostupne svim korisnicima sistema. Za njihovo pregledanje nisu potrebne nikakve specijalne permisije.
