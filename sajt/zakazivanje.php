@@ -142,13 +142,13 @@
 						<br><br><br><br><br>
 						<br><br><br><br><br><br><br><br><br><br>
 						<div class="dugme">
-                            <input class="input" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
+                            <input class="input" id="sub" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
 							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
 						</div>
 						<script type='text/javascript'> 
                             var uplaceno = document.getElementById("uplaceno");
                             if (uplaceno.value <= 0)
-                                uplaceno.disabled = true;
+                                document.getElementById("sub").disabled = true;
 						</script>
 					</form>
 				</div>
