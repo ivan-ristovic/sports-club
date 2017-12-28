@@ -104,8 +104,11 @@ Korisnika karakteriše:
 ## Uplata
 Korisnik može uplatiti više aktivnosti ali ne mora uplatiti nijednu. Jedna aktivnost može imati od 0 do više uplata.
 Uplatu karakteriše:
-- id
-- broj_treninga
+- id uplate
+- id koriniska
+- id aktivnosti
+- cena
+- broj treninga
 - datum
 - period
 
@@ -143,11 +146,13 @@ Korisnici mogu zakazati termin za individualne aktivnosti. Jedno zakazivanje kar
 ## Uplata razgovora
 Sadrži informacije o uplatama korisnika za razgovore sa nutricionistom. Jedan korisnik može uplatiti više termina.
 Uplatu razgovora karakteriše:
+- id uplate
 - id korisnika
 - id nutricioniste
 
 ## Uplata pregleda
 Sadrži informacije o uplatama korisnika za sportski pregled. Jedan korisnik može uplatiti više termina.
 Uplatu pregleda karakteriše:
+- id uplate
 - id korisnika
 - id lekara
