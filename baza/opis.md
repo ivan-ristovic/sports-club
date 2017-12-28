@@ -149,6 +149,7 @@ Uplatu razgovora karakteriše:
 - id uplate
 - id korisnika
 - id nutricioniste
+- broj sastanaka
 
 ## Uplata pregleda
 Sadrži informacije o uplatama korisnika za sportski pregled. Jedan korisnik može uplatiti više termina.
@@ -156,3 +157,4 @@ Uplatu pregleda karakteriše:
 - id uplate
 - id korisnika
 - id lekara
+- broj pregleda
