@@ -136,7 +136,7 @@
 						</div>
 						<div class="uplaceni">
 							<span>Broj uplaćenih termina:</span><br>
-							<input name="uplacenihTreninga" type="number" disabled="true"><br><br>	
+							<input name="uplacenihTreninga" type="number" disabled="true" id='uplaceno' value=<?php echo "'".$json_a["uplaceno"]."'";?>><br><br>	
 							<button style="background-color: green; color: white;"> Doplati treninge </button>							
 						</div>
 						<br><br><br><br><br>
@@ -145,6 +145,11 @@
                             <input class="input" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
 							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
 						</div>
+						<script type='text/javascript'> 
+                            var uplaceno = document.getElementById("uplaceno");
+                            if (uplaceno.value <= 0)
+                                uplaceno.disabled = true;
+						</script>
 					</form>
 				</div>
 			</div>

@@ -120,12 +120,15 @@
                         
                         $info = explode("?", $_GET["termin"]);
                         
-                        if (array_key_exists($info[0], $json_a["treneri"]) == false) {
+                        if ($json_a["uplaceno"] <= 0) {
+                            echo "nemate treninga uplacenih";
+                        } else if (array_key_exists($info[0], $json_a["treneri"]) == false) {
                             echo "invalid trener";
                         } else if (!in_array($info[1], $json_a["treneri"][$info[0]])) {
                             echo "invalid termin";
                         } else {
                             $json_a["treneri"][$info[0]] = array_diff($json_a["treneri"][$info[0]], [$info[1]]);
+                            $json_a["uplaceno"] = $json_a["uplaceno"] - 1;
 							$json_data = json_encode($json_a);
 							$fp = fopen('baza.json', 'w');
                             fwrite($fp, $json_data);
