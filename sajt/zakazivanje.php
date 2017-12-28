@@ -128,7 +128,7 @@
 										$json_a = json_decode($string, true);
 										foreach ($json_a["treneri"] as $key => $value){
 												foreach($value as $termin){
-													echo "<option value='".$key."?".$termin."'>".$key." ".$termin."</option>";
+													echo "<option value='".$key." ".$termin."'>".$key." ".$termin."</option>";
 												}
 										}
 								?>
