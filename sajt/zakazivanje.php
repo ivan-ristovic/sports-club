@@ -108,7 +108,7 @@
 			<div class="body">
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
-					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakaži</a></li>
+					  <li role="presentation" class="active"><a href="zakazivanje.php" id="refresh">Zakaži</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
 					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
@@ -137,18 +137,32 @@
 						<div class="uplaceni">
 							<span>Broj uplaćenih termina:</span><br>
 							<input name="uplacenihTreninga" type="number" disabled="true" id='uplaceno' value=<?php echo "'".$json_a["uplaceno"]."'";?>><br><br>	
-							<button style="background-color: green; color: white;"> Doplati treninge </button>							
+							<button type="button" style="background-color: green; color: white;" id="doplati" onclick="buyMore()"> Doplati treninge </button>							
 						</div>
 						<br><br><br><br><br>
 						<br><br><br><br><br><br><br><br><br><br>
 						<div class="dugme">
-                            <input class="input" id="sub" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
-							<button style="background-color: #e60000; color: white;"> Otkaži rezervaciju </button>
+              <input class="input" id="sub" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
+							<button type="button" style="background-color: #e60000; color: white;" onclick="refresh()"> Otkaži rezervaciju </button>
 						</div>
 						<script type='text/javascript'> 
                             var uplaceno = document.getElementById("uplaceno");
                             if (uplaceno.value <= 0)
                                 document.getElementById("sub").disabled = true;
+															
+														function refresh(){
+															document.getElementById('refresh').click();
+														}	
+														
+														function buyMore(){
+															var uplaceno = document.getElementById("uplaceno");
+															uplaceno.value = 1;
+															document.getElementById("sub").disabled = false;
+															var xhttp;
+															xhttp = new XMLHttpRequest();
+															xhttp.open("GET", "uplaceno_callback.php?uplaceno=1", true);
+															xhttp.send();   
+														}
 						</script>
 					</form>
 				</div>
