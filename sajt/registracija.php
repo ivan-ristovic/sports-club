@@ -42,6 +42,11 @@
 			.nav-pills> li.active>a{
 				background-color: #e60000;
 			}
+			div.button-pill{
+				margin: auto;
+				width: 110px;
+				height: 40px;
+			}
 		</style>
 	</head>
 	<body>
@@ -68,12 +73,17 @@
 					Email adresa:<br>
 					<input type="text" name="firstname"><br>
 					Šifra:<br>
-					<input type="text" name="lastname"><br>
+					<input type="password" name="psw"><br>
 					Potvrdite šifru:<br>
-					<input type="text" name="lastname">
+					<input type="password" name="psw1">
+					<div class="button-pill">
+					<ul class="nav nav-pills">
+						<li role="presentation" class="active"><a href="prijavljenIndex.php">Registruj se</a></li>
+					</ul>
+				</div>
 				</form>
 			</div>
 		</div>
 		
 	</body>
-</htm>
+</html>

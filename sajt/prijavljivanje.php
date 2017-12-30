@@ -44,7 +44,7 @@
 			}
 			div.button-pill{
 				margin: auto;
-				width: 86.8px;
+				width: 100px;
 				height: 40px;
 			}
 		</style>
@@ -73,7 +73,7 @@
 					Username ili email adresa:<br>
 					<input type="text" name="firstname"><br>
 					Šifra:<br>
-					<input type="text" name="lastname"><br><br>					
+					<input type="password" name="password"><br><br>					
 				</form>
 				<div class="button-pill">
 					<ul class="nav nav-pills">
@@ -84,4 +84,4 @@
 		</div>
 		
 	</body>
-</htm>
+</html>
