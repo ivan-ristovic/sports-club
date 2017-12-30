@@ -192,7 +192,7 @@
 							<span>Broj uplaćenih termina:</span><br>
 							<input name="uplacenihTreninga" type="number" disabled="true" id='uplaceno' value=<?php echo "'".$json_a["uplaceno"]."'";?>
 							</div>
-							<button type="button" style="background-color: green; color: white;" id="doplati" onclick="buyMore()"> Doplati treninge </button>
+							<button type="button" style="background-color: green; color: white;" id="doplati"> Doplati treninge </button>
 						</div>
 					</div>
 						<!-- <br><br><br><br><br>
@@ -208,16 +208,6 @@
 
 														function refresh(){
 															document.getElementById('refresh').click();
-														}
-
-														function buyMore(){
-															var uplaceno = document.getElementById("uplaceno");
-															uplaceno.value = 1;
-															document.getElementById("sub").disabled = false;
-															var xhttp;
-															xhttp = new XMLHttpRequest();
-															xhttp.open("GET", "uplaceno_callback.php?uplaceno=1", true);
-															xhttp.send();
 														}
 						</script>
 					</form>
