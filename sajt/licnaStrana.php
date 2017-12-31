@@ -87,13 +87,11 @@
 					<img src="logo.png" />
 				</div>
 				<ul class="nav nav-pills navbar-right navButtons">
-					<li role="presentation" class="active"><a href="index.php">Početna strana</a></li>
+					<li role="presentation" class="active"><a href="prijavljenIndex.php">Početna strana</a></li>
 					<li role="presentation" class="active"><a href="oNama.php">O nama</a></li>
 					<li role="presentation" class="active"><a href="treneri.php">Treneri</a></li>
 					<li role="presentation" class="active"><a href="aktivnosti.php">Naše aktivnosti</a></li>
-					<li role="presentation" class="active"><a href="prijavljivanje.php">Prijavljivanje</a></li>
-					<li role="presentation" class="active"><a href="registracija.php">Registracija</a></li>
-					<li role="presentation" class="active"><a href="#">Odjavljivanje</a></li>
+					<li role="presentation" class="active"><a href="index.php">Odjavljivanje</a></li>
 					<li role="presentation" class="active"><a class=" here" href="licnaStrana.php">Lična strana</a></li>
 					<li role="presentation" class="active" id="blocked"><a href="#"><img src="icon.png">Dobrodošao usertest!</a></li>
 				</ul>
