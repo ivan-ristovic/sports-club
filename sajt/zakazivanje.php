@@ -77,7 +77,7 @@
 				margin-left: 10px;
 			}
 			span {
-				font-size: 25px;
+				font-size: 18px;
 				font-weight: bold;
 			}
 			select {
@@ -133,6 +133,10 @@
 			.here {
 					background-color: #c82d38 !important;
 			}
+
+			.disabledButton {
+				opacity: .6;
+			}
 		</style>
 	</head>
 	<body>
@@ -160,14 +164,10 @@
 			<div class="content1">
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
-					  <li role="presentation" class="active"><a href="zakazivanje.php" id="refresh">Zakaži</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
+					  <li role="presentation" class="active"><a class="here" href="zakazivanje.php" id="refresh">Zakaži</a></li>
+					  <li role="presentation" class="active"><a href="#">Kalendar</a></li>
+					  <li role="presentation" class="active"><a href="#">Nutricionista</a></li>
+					  <li role="presentation" class="active"><a href="#">Lekarski pregledi</a></li>
 					</ul>
 				</nav>
 				<div class="content">
@@ -192,20 +192,23 @@
 							<span>Broj uplaćenih termina:</span><br>
 							<input name="uplacenihTreninga" type="number" disabled="true" id='uplaceno' value=<?php echo "'".$json_a["uplaceno"]."'";?>
 							</div>
-							<button type="button" style="background-color: green; color: white;" id="doplati"> Doplati treninge </button>
+							<button type="button" style="background-color: #1d6f1d; color: white;" id="doplati"> Doplati treninge </button>
 						</div>
 					</div>
 						<!-- <br><br><br><br><br>
 						<br><br><br><br><br><br><br><br><br><br> -->
 						<div class="dugme">
-              <input class="input" id="sub" type="submit" style="background-color: green; color: white" value="Potvrdi rezervaciju">
+              <input class="input" id="sub" type="submit" style="background-color: #1d6f1d; color: white" value="Potvrdi rezervaciju">
 							<button type="button" style="background-color: #ec3642; color: white;" onclick="refresh()"> Otkaži rezervaciju </button>
 						</div>
 						<script type='text/javascript'>
                             var uplaceno = document.getElementById("uplaceno");
-                            if (uplaceno.value <= 0)
-                                document.getElementById("sub").disabled = true;
-
+                            if (uplaceno.value <= 0){
+                                // document.getElementById("sub").disabled = true;
+																document.getElementById("sub").className += " disabledButton"
+														} else {
+															document.getElementById("sub").classList.remove("disabledButton")
+														}
 														function refresh(){
 															document.getElementById('refresh').click();
 														}

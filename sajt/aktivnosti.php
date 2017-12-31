@@ -6,7 +6,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<style>
-		
+
 			body {
 				height: 100vh;
 			}
@@ -55,17 +55,17 @@
 			}
 
 			.img1 {
-				background-image: url(https://84fitness.com/uploads/2016/09/bodypump-weighted-squat-770x400.jpg);
+				background-image: url(aktivnst1.jpg);
 				background-size: cover;
 			}
 
 			.img2 {
-				background-image: url(https://indymca.org/benjamin-harrison/wp-content/uploads/sites/5/2017/01/les.jpg);
+				background-image: url(aktivnost2.jpg);
 				background-size: cover;
 			}
 
 			.img3 {
-				background-image: url(http://ethnogym-erbil.com/wp-content/uploads/2015/07/BA2.jpg);
+				background-image: url(aktivnost3.jpg);
 				background-size: cover;
 			}
 

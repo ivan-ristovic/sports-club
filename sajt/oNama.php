@@ -51,7 +51,7 @@
 			.bigImg {
 				width: 100%;
 				height: 100%;
-				background-image: url(http://bfiercefitness.net/wp-content/uploads/2017/04/Slider-1.1.png);
+				background-image: url(oNama.png);
 				background-size: cover;
 			}
 

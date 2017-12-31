@@ -8,5 +8,5 @@
 	$fp = fopen('baza.json', 'w');
 	fwrite($fp, $json_data);
 	fclose($fp);
-	
+
 ?>

@@ -10,6 +10,7 @@
 
 			body {
 				height: 100vh;
+				background-color: #333;
 			}
 
 			.main {
@@ -47,6 +48,11 @@
 				height: 81px;
 			}
 
+			.body {
+				display: flex;
+				margin-top: 20px;
+				margin-left: 5px;
+			}
 			.nav-pills> li#blocked{
 				disabled: true;
 			}
@@ -55,10 +61,16 @@
 			}
 			nav.vertical {
 				width: 190px;
-				float: left;
+				/*float: left;*/
 			}
 			.content {
-				float: left;
+				display: flex;
+				justify-content: center;
+				color: white;
+				width: 100%;
+				font-size: 17px;
+				font-family: Ubuntu;
+				/*float: left;*/
 			}
 			form {
 				width: 1000px;
@@ -72,16 +84,16 @@
 				height: 30px;
 			}
 			.treneri {
-				float: left;
+				/*float: left;*/
 			}
 			.uplaceni {
-				float: right;
+				/*float: right;*/
 			}
 			.termini {
-				float: left;
+				/*float: left;*/
 			}
 			.dugme{
-				float: left;
+				/*float: left;*/
 			}
 			button{
 				width: 230px;
@@ -113,16 +125,13 @@
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
 					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakaži</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
+						<li role="presentation" class="active"><a href="#">Kalendar</a></li>
+					  <li role="presentation" class="active"><a href="#">Nutricionista</a></li>
+					  <li role="presentation" class="active"><a href="#">Lekarski pregledi</a></li>
 					</ul>
 				</nav>
-				<div class="content" style="margin-top: 25px;">
+				<div class="content">
+					Zakazan je trening kod trenera Milena
                     <?php
                         $string = file_get_contents("baza.json");
                         $json_a = json_decode($string, true);

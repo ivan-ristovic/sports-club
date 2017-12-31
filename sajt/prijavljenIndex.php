@@ -9,7 +9,7 @@
 
 			body {
 				height: 100vh;
-				background-color: #333;
+				background-color: #2b2b2d;
 			}
 
 			.main {
@@ -51,8 +51,9 @@
 			.body {
 				display: flex;
 				align-items: flex-start;
-				background-image: url(https://www.cdn.spotebi.com/wp-content/uploads/2015/03/be-confident-workout-motivation-quote.jpg);
+				background-image: url(prijavljeniIndex.jpg);
 				background-size: 1339px 693px;
+				background-position: center;
 				background-repeat: no-repeat;
 				height: 100%;
 			}
@@ -101,7 +102,7 @@
 					<li role="presentation" class="active"><a href="treneri.php">Treneri</a></li>
 					<li role="presentation" class="active"><a href="aktivnosti.php">Naše aktivnosti</a></li>
 					<li role="presentation" class="active"><a href="registracija.php">Registracija</a></li>
-					<li role="presentation" class="active"><a href="#">Odjavljivanje</a></li>
+					<li role="presentation" class="active"><a href="index.php">Odjavljivanje</a></li>
 					<li role="presentation" class="active"><a href="licnaStrana.php">Lična strana</a></li>
 					<li role="presentation" class="active" id="blocked"><a class="here" href="#"><img src="icon.png">Dobrodošao usertest!</a></li>
 				</ul>

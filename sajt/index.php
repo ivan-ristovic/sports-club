@@ -51,7 +51,7 @@
 			.bigImg {
 				width: 100%;
 				height: 100%;
-				background-image: url(http://balleralert.com/wp-content/uploads/2017/01/fitness.jpg);
+				background-image: url(pocetna.jpg);
 				background-size: cover;
 			}
 

@@ -65,11 +65,15 @@
 			}
 
 			label {
-				margin-top: 5px;
+				margin-top: 4px;
 			}
 
+			input {
+				margin-bottom: 20px;
+				color: black;
+			}
 			 .button {
-				margin-top: 10px;
+				/*margin-top: 10px;*/
 			}
 
 			.here {

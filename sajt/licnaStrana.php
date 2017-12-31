@@ -103,13 +103,9 @@
 				<nav class="vertical">
 					<ul class="nav nav-pills nav-stacked">
 					  <li role="presentation" class="active"><a href="zakazivanje.php">Zakaži</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
-					  <li role="presentation" class="active"><a href="#">Nesto</a></li>
+						<li role="presentation" class="active"><a href="#">Kalendar</a></li>
+					  <li role="presentation" class="active"><a href="#">Nutricionista</a></li>
+					  <li role="presentation" class="active"><a href="#">Lekarski pregledi</a></li>
 					</ul>
 				</nav>
 				<div class="content">

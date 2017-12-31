@@ -6,7 +6,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<style>
-	
+
 			body {
 				height: 100vh;
 				background-color: rgb(36, 36, 36);
@@ -65,16 +65,17 @@
 			}
 
 			label {
-				margin-top: 5px;
+				margin-top: 4px;
 			}
 
 			 .button {
-				margin-top: 10px;
+				/*margin-top: 10px;*/
 			}
 
 			input {
 				color: black;
 				width: 190px;
+				margin-bottom: 20px
 			}
 
 			.here {

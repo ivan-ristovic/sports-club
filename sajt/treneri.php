@@ -50,7 +50,7 @@
 			.bigImg {
 				width: 100%;
 				height: 100%;
-				background-image: url(http://www.espacoemmel.com.br/wp-content/uploads/2014/04/horarios-familia-casais-hidroginastica-pilates-academia-feminina-espaco-emmel-mulher-curitiba.jpg);
+				background-image: url(treneri.jpg);
 				background-size: cover;
 			}
 
